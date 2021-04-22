@@ -1,0 +1,84 @@
+/*!
+ * Theme Name: Farmsby
+ * Package : Farmsby
+ * Author: Farmsby Inc
+ * Author URI: http://farmsby.com/team/tom
+ * Version	 :	1.0.0
+ * Updated	 :	01.05.2021
+**/
+
+:root{ 
+    --green-600: #249154;
+    --green-500: #36a868;
+    --green-400: #50ba7f;
+    --green-300: #69c994;
+    --green-200: #89e8b4;
+    --green-100: #a7facd;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-green: #1e5230;
+    --navy: #0d1f42;
+    --light-gray: #f2f2f2;
+}
+
+body, html {
+    margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+    height: auto;
+    min-height: 70px;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 0.7);
+    z-index: 10001;
+}
+
+header > div.logo {
+    display: inline-table;
+    width: 40%;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+header > div.logo > img {
+    display: inline-table;
+    width: 25%;
+}
+
+header > nav {
+    display: inline-table;
+    width: auto;
+    height: auto;
+    float: right;
+    padding: 10px 20px;
+}
+
+header > nav > li {
+    list-style: none;
+    display: inline-table;
+    padding: 10px 30px;
+}
+
+header > nav > li > a,
+header > nav > li > a:hover {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 300;
+}
+
+header > nav > li > a.active,
+header > nav > li > a:hover {
+    font-weight: 600;
+}
+
+header > nav > li > a.__btn {
+    display: inline-table;
+    background-color: var(--green-600);
+    color: var(--white);
+    padding: 5px 22px;
+    border-radius: 50px;
+}
+
+.w-10 { width: 10%; }
