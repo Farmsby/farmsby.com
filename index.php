@@ -37,10 +37,6 @@
     <section class="content">
 
     </section>
-
-    <section>
-        
-    </section>
     <!-- Visible Content: End -->    
     
     <script src="./assets/js/jquery.js"></script>
