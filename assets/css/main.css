@@ -16,7 +16,7 @@
     --green-100: #a7facd;
     --white: #ffffff;
     --black: #000000;
-    --dark-green: #052832;
+    --dark-green: #001B25;
     --navy: #0d1f42;
     --light-gray: #f2f2f2;
 }
@@ -102,7 +102,7 @@ header > nav > li > a.__btn:hover {
 .hero {
     display: inline-block;
     height: auto;
-    min-height: 85vh;
+    min-height: 100vh;
     width: 100%;
     background-color: var(--light-gray);
 }
@@ -113,4 +113,34 @@ header > nav > li > a.__btn:hover {
     min-height: 85vh;
     width: 100%;
     background-color: var(--dark-green);
+}
+
+.content .container { padding-top: 50px; }
+
+.icon_holder {
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url('../images/icon/iconium.svg');
+}
+
+.icon_holder:nth-child(1) {
+    transform: rotate(20deg);
+}
+
+.icon_circle {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    background-color: #1D4146;
+    border-radius: 100%;
+}
+
+.flower-scroller {
+    width: 104%;
+    margin-top: -15%; 
+    margin-left: -4%;
 }

@@ -15,7 +15,7 @@
     <header>
         <div class="logo">
             <!-- <img src="./assets/images/logo.png" alt="Farmsby Logo" class="w-10"> -->
-            <img src="./assets/images/logo-white.png" alt="Farmsby Logo" class="w-10">
+            <img src="./assets/images/logo/logo-white.png" alt="Farmsby Logo" class="w-10">
         </div>
         <nav>
             <li><a href="#" class="active">Home</a></li>
@@ -31,11 +31,35 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero"></section>
 
-    </section>
     <section class="content">
+    <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon_holder">
+                        <div class="icon_circle">
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon_holder">
+                        <div class="icon_circle">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon_holder">
+                        <div class="icon_circle">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Visible Content: End -->    
     
