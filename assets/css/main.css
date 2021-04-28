@@ -7,6 +7,11 @@
  * Updated	 :	01.05.2021
 **/
 
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Secular One', sans-serif; 
+*/
+
 :root{ 
     --green-600: #249154;
     --green-500: #36a868;
@@ -19,10 +24,18 @@
     --dark-green: #001B25;
     --navy: #0d1f42;
     --light-gray: #f2f2f2;
+    --lighter-gray: #e8e8e8;
 }
 
 body, html {
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p { font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Secular One', sans-serif; 
 }
 
 header {
@@ -112,15 +125,16 @@ header > nav > li > a.__btn:hover {
     height: auto;
     min-height: 85vh;
     width: 100%;
+    padding-bottom: 80px;
     background-color: var(--dark-green);
 }
 
 .content .container { padding-top: 50px; }
 
 .icon_holder {
-    height: 300px;
-    width: 300px;
-    background-repeat: no-repeat;
+    height: 216px;
+    width: 199px;
+    background-repeat: repeat;
     text-align: center;
     background-image: url('../images/icon/iconium.svg');
 }
@@ -143,4 +157,18 @@ header > nav > li > a.__btn:hover {
     width: 104%;
     margin-top: -15%; 
     margin-left: -4%;
+}
+
+.info-container {
+    padding: 5% 15% 0 0;
+}
+
+p.info {
+    color: var(--lighter-gray);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.pushdown-x2 {
+    margin-top: 100px;
 }
