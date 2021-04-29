@@ -14,10 +14,10 @@
 </head>
 <body>
     <!-- Visible Content: Start -->    
-    <header>
+    <header class="ps-fixed">
         <div class="logo">
-            <!-- <img src="./assets/images/logo.png" alt="Farmsby Logo" class="w-10"> -->
             <img src="./assets/images/logo/logo-white.png" alt="Farmsby Logo" class="w-10">
+            <!-- <img src="./assets/images/logo/logo.png" alt="Farmsby Logo" class="w-10"> -->
         </div>
         <nav>
             <li><a href="#" class="active">Home</a></li>
@@ -33,9 +33,21 @@
         </nav>
     </header>
 
-    <section class="hero"></section>
+    <section class="hero">
+        <!-- <div class="container ps-absolute pushdown-x3">
+            <div class="row pushleft-x2">
+                <div class="col-md-5">
+                    <h2 class="text-white">
+                    To transition Aussie farmers to regenerative agriculture and support them to 
+                    rebuild the carbon (organic matter) in their soil from 1% to 8%. 
+                    </h2>
+                </div>
+            </div>
+        </div> -->
+        <video src="./assets/images/mp4/motion.mp4" autoplay="true" loop="true" style="width: 100%"></video>
+    </section>
 
-    <section class="content">
+    <section class="content ps-relative bg-green" style="z-index: 10001;">
     <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
         <div class="container">
             <div class="row">
@@ -99,7 +111,19 @@
             </div>
         </div>
     </section>
-    <!-- Visible Content: End -->    
+    <!-- Visible Content: End -->  
+    <section class="content bg-teal">
+        <div class="container">
+            <div class="row pushdown-x2">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <p class="text-brown">Why it matters</p>
+                    <h2 class="text-brown">
+                    Increasing carbon in the soil cleans our air, saves water, 
+                    improves biodiversity, and grows healthier food.                  </h2>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/config.js"></script>
