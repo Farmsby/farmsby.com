@@ -157,7 +157,7 @@ header > nav > li > a.__btn:hover {
    position: relative;
  }
 
- .card_scroller {
+.card_scroller {
    scroll-snap-type: x mandatory;
    overflow-x: scroll;
    overflow-y: hidden;
@@ -165,7 +165,11 @@ header > nav > li > a.__btn:hover {
    align-items: center;
    height: auto; 
    -webkit-overflow-scrolling: touch;
- }
+}
+
+.card_scroller::-webkit-scrollbar {
+    display: none;
+}
 
 .card-view {
     border-radius: 50px;
