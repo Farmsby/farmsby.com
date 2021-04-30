@@ -1,0 +1,24 @@
+.flower-scroller {
+    width: 100%;
+    margin-left: -31px;
+}
+.flower-scroller :nth-of-type(2), .flower-scroller :nth-of-type(3) {
+    margin-left: -31px;
+}
+
+.info-container {
+    padding: 5% 15% 0 0;
+}
+.images-container{
+    display: flex;
+    width: 100vw;
+    /* overflow-x: scroll; */
+    margin-top: -15%;
+    margin-left: -4%;
+    width: calc(100vw + 63px);
+}
+
+/* .images-container::-webkit-scrollbar {
+    width: 0;
+    background: transparent;  
+} */

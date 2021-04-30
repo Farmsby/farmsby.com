@@ -47,11 +47,16 @@
         <video src="./assets/images/mp4/motion.mp4" autoplay="true" loop="true" style="width: 100%"></video>
     </section>
 
-    <section class="content ps-relative bg-green-linear" style="z-index: 101;">
-    <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
+    <section class="content contain ps-relative bg-green" style="z-index: 101;">
+        <div class="images-container  panel">
+            <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
+            <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
+            <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
+                    <p class="text-white info">Welcome to Farmsby</p>
                     <h2 class="text-white">
                         Growing Nigeria's Agricultural Sector by Eliminating Barriers to Participation 
                         in the Industry Using Cutting-edge Technology and Brilliant Innovations
@@ -59,7 +64,7 @@
                 </div>
             </div>
             <div class="row pushdown-x2">
-                <!-- <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="icon_holder">
                         <div class="icon_circle">
 
@@ -106,7 +111,7 @@
                             quasi harum! Aliquam, enim?
                         </p>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -196,7 +201,8 @@
             </div>
         </div>
     </div> -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>  
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/config.js"></script>
     <script src="./assets/js/app.js"></script>
