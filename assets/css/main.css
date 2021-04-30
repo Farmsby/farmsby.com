@@ -40,7 +40,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    
+
 }
 
 body, html {
@@ -156,9 +156,11 @@ header > nav > li > a.__btn:hover {
 }
 
 .carholder {
-    position: relative;
+    /* position: relative; */
     max-width: 1300px;
-    padding: 0 10;
+    display: flex;
+    overflow-x: scroll;
+    /* padding: 0 10; */
 }
 
 .card_scroller .card-view {
@@ -186,7 +188,8 @@ header > nav > li > a.__btn:hover {
     display: inline-table;
     height: auto;
     min-height: 600px;
-    width: 90%;
+   width: 80vw;
+
     margin: 5%;
 }
 
