@@ -47,12 +47,11 @@
         <video src="./assets/images/mp4/motion.mp4" autoplay="true" loop="true" style="width: 100%"></video>
     </section>
 
-    <section class="content ps-relative bg-green" style="z-index: 10001;">
+    <section class="content ps-relative bg-green-linear" style="z-index: 10001;">
     <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
-                    <p class="text-white info">Welcome to Farmsby</p>
                     <h2 class="text-white">
                     To transition Aussie farmers to regenerative agriculture and support them to 
                     rebuild the carbon (organic matter) in their soil from 1% to 8%. 
@@ -60,7 +59,7 @@
                 </div>
             </div>
             <div class="row pushdown-x2">
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="icon_holder">
                         <div class="icon_circle">
 
@@ -107,23 +106,96 @@
                             quasi harum! Aliquam, enim?
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <!-- Visible Content: End -->  
-    <section class="content bg-teal">
+    <section class="content bg-black">
         <div class="container">
             <div class="row pushdown-x2">
-                <div class="col-md-6 offset-md-3 text-center">
-                    <p class="text-brown">Why it matters</p>
-                    <h2 class="text-brown">
-                    Increasing carbon in the soil cleans our air, saves water, 
-                    improves biodiversity, and grows healthier food.                  </h2>
+                <div class="col-md-12 text-center">
+                    <ul class="nav-block">
+                        <li class="active"><a href="#">Invest</a></li>
+                        <li><a href="#">Trade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row flex-row flex-nowrap">
+                <div class="col-md-12">
+                    <div class="carholder">
+                        <div class="card_scroller">
+                            <div class="card-view">
+                                <div class="card-content">
+                                    <div class="card-content-wrap">
+                                        <h1 class="text-white">
+                                            Messages are only seen by who you send them to.
+                                        </h1>
+                                        <p class="text-white pushdown-x1">
+                                            Apple can’t read your iMessages while they’re being sent between you and the person you’re texting.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-image green">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-view">
+                                <div class="card-content">
+                                    <div class="card-content-wrap">
+                                        <h1 class="text-white">
+                                            Maps makes your location history, history.
+                                        </h1>
+                                        <p class="text-white pushdown-x1">
+                                            The Maps app doesn’t associate your data with your Apple ID, and Apple doesn’t keep a history of where you’ve been.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-image orange">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-view">
+                                <div class="card-content">
+                                    <div class="card-content-wrap">
+                                        <h1 class="text-white">
+                                            Maps makes your location history, history.
+                                        </h1>
+                                        <p class="text-white pushdown-x1">
+                                            The Maps app doesn’t associate your data with your Apple ID, and Apple doesn’t keep a history of where you’ve been.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-image purple">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- <div class="container" style="margin-top: -5%; margin-bottom: 5%">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card-view ps-relative">
+                    <h3 class="card-title">
+                        <span>Farmsby</span>
+                        Invest
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Ut asperiores nam sequi culpa quasi facere nostrum.
+                    </p>
+                    <a href="#" class="__btnlink">
+                        Invest Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
     
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/config.js"></script>
