@@ -47,14 +47,14 @@
         <video src="./assets/images/mp4/motion.mp4" autoplay="true" loop="true" style="width: 100%"></video>
     </section>
 
-    <section class="content ps-relative bg-green-linear" style="z-index: 10001;">
+    <section class="content ps-relative bg-green-linear" style="z-index: 101;">
     <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 text-center">
                     <h2 class="text-white">
-                    To transition Aussie farmers to regenerative agriculture and support them to 
-                    rebuild the carbon (organic matter) in their soil from 1% to 8%. 
+                        Growing Nigeria's Agricultural Sector by Eliminating Barriers to Participation 
+                        in the Industry Using Cutting-edge Technology and Brilliant Innovations
                     </h2>
                 </div>
             </div>
