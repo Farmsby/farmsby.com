@@ -1,0 +1,206 @@
+/*!
+ * Theme Name: Farmsby
+ * Package : Farmsby
+ * Author: Farmsby Inc
+ * Author URI: http://farmsby.com/team/tom
+ * Version	 :	1.0.0
+ * Updated	 :	01.05.2021
+**/
+
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Secular One', sans-serif; 
+*/
+
+:root{ 
+    --green-600: #249154;
+    --green-500: #36a868;
+    --green-400: #50ba7f;
+    --green-300: #69c994;
+    --green-200: #89e8b4;
+    --green-100: #a7facd;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-green: #001B25;
+    --dark-brown: #4f4f4f;
+    --navy: #0d1f42;
+    --light-gray: #f2f2f2;
+    --lighter-gray: #e8e8e8;
+    --teal: #E8F4EF;
+}
+
+body, html {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+p { font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Secular One', sans-serif; 
+}
+
+header {
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    min-height: 70px;
+    width: 100%;
+    z-index: 1001;
+}
+
+header.transparent { background-color: rgba(242, 242, 242, 0.2); }
+
+header > div.logo {
+    display: inline-table;
+    width: 40%;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+header > div.logo > img {
+    display: inline-table;
+    width: 25%;
+}
+
+header > nav {
+    display: inline-table;
+    width: auto;
+    height: auto;
+    float: right;
+    padding: 10px 20px;
+}
+
+header > nav > li {
+    list-style: none;
+    display: inline-table;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header > nav > li > a,
+header > nav > li > a:hover {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 400;
+}
+
+header > nav > li > a.active,
+header > nav > li > a:hover {
+    font-weight: 600;
+}
+
+header > nav > li > a.__btn,
+header > nav > li > a.__btn:hover {
+    display: inline-table;
+    background-color: var(--green-600);
+    color: var(--white);
+    padding: 6px 22px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+}
+
+header > nav > li > a.__btn:hover { 
+    background-color: var(--green-600); 
+}
+
+.__icon {
+    margin-left: 7px;
+    font-size: 13px;
+}
+
+.w-10 { width: 10%; }
+.floater { z-index: 400; }
+
+.hero {
+    display: inline-block;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--light-gray);
+}
+
+.content {
+    display: inline-block;
+    height: auto;
+    min-height: 15vh;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.bg-green { background-color: var(--dark-green); }
+.bg-white { background-color: var(--white); }
+.bg-teal { background-color: var(--teal);  }
+.content .container { padding-top: 20px; }
+
+.ps-relative { position: relative; }
+.ps-absolute { position: absolute; }
+.ps-fixed { position: fixed; }
+.ps-static { position: static; }
+
+.icon_holder {
+    height: 216px;
+    width: 199px;
+    background-repeat: repeat;
+    text-align: center;
+    background-image: url('../images/icon/iconium.svg');
+}
+
+.icon_holder:nth-child(1) {
+    transform: rotate(20deg);
+}
+
+.icon_circle {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    background-color: #1D4146;
+    border-radius: 100%;
+}
+
+.flower-scroller {
+    width: 100%;
+    margin-left: -31px;
+}
+.flower-scroller :nth-of-type(2), .flower-scroller :nth-of-type(3) {
+    margin-left: -31px;
+}
+
+.info-container {
+    padding: 5% 15% 0 0;
+}
+.images-container{
+    display: flex;
+    width: 100vw;
+    /* overflow-x: scroll; */
+    margin-top: -15%;
+    margin-left: -4%;
+    width: calc(100vw + 63px);
+}
+
+/* .images-container::-webkit-scrollbar {
+    width: 0;
+    background: transparent;  
+} */
+p.info {
+    color: var(--lighter-gray);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.pushdown-x2 { margin-top: 100px; }
+.pushdown-x3 { margin-top: 200px; }
+.pushdown-x4 { margin-top: 300px; }
+
+.pushleft-x2 { margin-left: 100px; }
+
+.text-brown { color: var(--dark-brown); }
