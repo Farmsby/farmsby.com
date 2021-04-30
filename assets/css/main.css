@@ -198,7 +198,7 @@ header > nav > li > a.__btn:hover {
     display: table-cell;
     width: 50%;
     height: auto;
-    min-height: 75vh;
+    max-height: 50vh;
 }
 
 .card-image {
@@ -210,7 +210,7 @@ header > nav > li > a.__btn:hover {
     display: inline-table;
     height: auto;
     position: relative;
-    margin: 20% 15%;
+    margin: 10% 7%;
 
 }
 
