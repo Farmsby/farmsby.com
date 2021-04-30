@@ -42,6 +42,9 @@ body, html {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 
 p { font-family: 'Open Sans', sans-serif; }
 
