@@ -30,6 +30,7 @@
     --navy: #0d1f42;
     --light-gray: #f2f2f2;
     --lighter-gray: #e8e8e8;
+    --lightest-gray: #b3b3b3;
     --card-1: #001f10;
     --card-2: #261901;
     --card-3: #0f0e1c;
@@ -197,9 +198,12 @@ header > nav > li > a.__btn:hover {
     display: inline-table;
     height: auto;
     position: relative;
-    margin: 20% 20%;
+    margin: 20% 15%;
 
 }
+
+.text-gray { color: var(--lightest-gray); }
+.text-gray2 { color: var(--lighter-gray); }
 
 .card-image.green { background-color: var(--green-400); }
 .card-image.orange { background-color: var(--orange); }
@@ -220,6 +224,16 @@ header > nav > li > a.__btn:hover {
 .ps-absolute { position: absolute; }
 .ps-fixed { position: fixed; }
 .ps-static { position: static; }
+
+.f-5 { font-size: 5px; }
+.f-10 { font-size: 10px; }
+.f-20 { font-size: 20px; }
+.f-30 { font-size: 30px; }
+.f-40 { font-size: 40px; }
+.f-50 { font-size: 50px; }
+.f-60 { font-size: 60px; }
+.f-70 { font-size: 70px; }
+.f-80 { font-size: 80px; }
 
 .icon_holder {
     height: 216px;

@@ -47,7 +47,7 @@
         <video src="./assets/images/mp4/motion.mp4" autoplay="true" loop="true" style="width: 100%"></video>
     </section>
 
-    <section class="content contain ps-relative bg-green" style="z-index: 101;">
+    <section class="content contain ps-relative bg-green-linear" style="z-index: 101;">
         <div class="images-container  panel">
             <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
             <img src="./assets/images/extras/flower.png" alt="Floor Hero" class="flower-scroller">
@@ -63,7 +63,7 @@
                     </h2>
                 </div>
             </div>
-            <div class="row pushdown-x2">
+            <!-- <div class="row pushdown-x2">
                 <div class="col-md-4">
                     <div class="icon_holder">
                         <div class="icon_circle">
@@ -112,7 +112,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Visible Content: End -->  
@@ -134,10 +134,18 @@
                                 <div class="card-content">
                                     <div class="card-content-wrap">
                                         <h1 class="text-white">
-                                            Messages are only seen by who you send them to.
+                                            Your Wallet + Invest <br> <span class="text-gray f-50">What a pair!</span>
                                         </h1>
-                                        <p class="text-white pushdown-x1">
-                                            Apple can’t read your iMessages while they’re being sent between you and the person you’re texting.
+                                        <p class="text-gray2 pushdown-x1">
+                                            Start farming with a single click. Think of this as a single-button remote control. 
+                                            All you've got to do is sign up and invest. 
+                                        </p>
+                                        <p class="text-gray2">
+                                            That simple action sets a chain of complex activities into motion. 
+                                            The result? Your money is invested into our farms. You get to become a farmer without ever stepping on a farm. 
+                                        </p>
+                                        <p class="text-gray2">
+                                            And when your investment cycle is complete, you get your returns - harvest or no harvest. No stories.
                                         </p>
                                     </div>
                                 </div>
@@ -149,29 +157,18 @@
                                 <div class="card-content">
                                     <div class="card-content-wrap">
                                         <h1 class="text-white">
-                                            Maps makes your location history, history.
+                                        <span class="text-gray f-60">Farmsby Trade</span> <br> <span class="f-30">Agro Trading in Your Hands</span>
                                         </h1>
-                                        <p class="text-white pushdown-x1">
-                                            The Maps app doesn’t associate your data with your Apple ID, and Apple doesn’t keep a history of where you’ve been.
+                                        <p class="text-gray2 pushdown-x1">
+                                            Farming is not enough. You have to sell. And if you're buying, you don't have to stress over it. 
+                                            We buy produce from farmers and make them available on our platform, delivering these to buyers right at their doorsteps. 
+                                        </p>
+                                        <p class="text-gray2">
+                                            If you want them right on your countertop, we'll place them right there. We do all of these at unbeatable prices.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="card-image orange">
-                                    
-                                </div>
-                            </div>
-                            <div class="card-view">
-                                <div class="card-content">
-                                    <div class="card-content-wrap">
-                                        <h1 class="text-white">
-                                            Maps makes your location history, history.
-                                        </h1>
-                                        <p class="text-white pushdown-x1">
-                                            The Maps app doesn’t associate your data with your Apple ID, and Apple doesn’t keep a history of where you’ve been.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card-image purple">
                                     
                                 </div>
                             </div>
