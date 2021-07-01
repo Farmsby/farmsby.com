@@ -128,6 +128,18 @@ section.green {
     background-position: 50% 10%;
 }
 
+.our-thought {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    margin: 5% 10%;
+    border-radius: 10px;
+    border: 1px solid rgba(111, 207, 151, 1);
+    background: rgba(0, 0, 0, 0.2);
+}
+.our-thought > p.f-light { font-weight: 100; }
+
 .__icon {
     margin-left: 7px;
     font-size: 13px;

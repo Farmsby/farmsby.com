@@ -22,12 +22,14 @@
 
         <header class="header-padding">
             <div class="logo">
-                <img src="./assets/images/logo/logo-green.svg" alt="">
+                <a href="./">
+                    <img src="./assets/images/logo/logo-green.svg" alt="">
+                </a>
             </div>
             <ul class="nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="./about">About</a></li>
+                <li><a href="./contact">Contact Us</a></li>
+                <li><a href="./faq">FAQ</a></li>
             </ul>
         </header>
 
