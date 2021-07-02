@@ -132,10 +132,10 @@ section.green {
 section.community {
     display: inline-block;
     height: auto;
-    min-height: 400px;
+    min-height: 300px;
     width: 80%;
     margin: 2.5% 10%;
-    padding: 5%;
+    padding: 3% 5%;
     border-radius: 20px;
     background: rgba(20, 82, 63, 1) url('../images/icon/community_pattern.svg') repeat;
     background-position: 50% 10%;
@@ -188,11 +188,7 @@ section.community {
     width: 85%;
     margin: 10px auto;
   }
-  
-  h1 {
-    margin: 50px auto;
-  }
-  
+   
   .container-y {
     border-top: 2px solid #000;
     display: flex;

@@ -71,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="text-white f-50">Be Part of Our Community</h1>
+                        <h1 class="text-white f-40">Be Part of Our Community</h1>
                         <p class="text-white sub-desc pt-3">
                         Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
                         </p>
