@@ -19,19 +19,9 @@
 <body>
     <div class="bg_pattern">
         <!-- Code within this block -->
-
-        <header class="header-padding">
-            <div class="logo">
-                <a href="./">
-                    <img src="./assets/images/logo/logo-green.svg" alt="">
-                </a>
-            </div>
-            <ul class="nav">
-                <li><a href="./about">About</a></li>
-                <li><a href="./contact">Contact Us</a></li>
-                <li><a href="./faq">FAQ</a></li>
-            </ul>
-        </header>
+        <?php 
+            include_once './widgets/header.php'; 
+        ?>
 
         <div class="hero container">
             <div class="row">
@@ -68,6 +58,21 @@
             <p class="text-white sub-desc w-40">Farm easy with Farmsby Green, all you need to farm green all in your style </p>
             <img src="./assets/images/extras/green-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-green">
         </section>
+
+        <section class="community">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="text-white f-50">Be Part of Our Community</h1>
+                        <p class="text-white sub-desc pt-3">
+                        Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
+                        </p>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </section>
+
         <!-- Code within this block -->
     </div>
 

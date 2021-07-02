@@ -19,19 +19,7 @@
 <body>
     <div class="bg_pattern">
         <!-- Code within this block -->
-
-        <header class="header-padding">
-            <div class="logo">
-                <a href="./">
-                    <img src="./assets/images/logo/logo-green.svg" alt="">
-                </a>
-            </div>
-            <ul class="nav">
-                <li><a href="./about">About</a></li>
-                <li><a href="./contact">Contact Us</a></li>
-                <li><a href="./faq">FAQ</a></li>
-            </ul>
-        </header>
+        <?php include_once './widgets/header.php'; ?>
 
         <div class="hero container">
             <div class="row">
@@ -46,51 +34,72 @@
             </div>
         </div>
 
-        <section class="pushdown-x1 text-center">
-            <p class="text-teal italics post-title f-20 pushdown-x1">Our Drive</p>
-            <h1 class="text-white f-50">The Future of <br> Agriculture</h1>
+        <section class="pushdown-x1">
+            <p class="text-teal italics post-title f-20 pushdown-x1 text-center">Our Drive</p>
+            <h1 class="text-white f-50 text-center">The Future of <br> Agriculture</h1>
 
-            <div class="our-thought p-4">
-                <p class="text-white f-30 f-light">
+            <div class="our-thought text-center">
+                <p class="text-white f-20 f-light">
                     Having a daily task calendar working for you, and structured for your workforce, 
                     with iOT’s benefit, Having a daily task calendar working for you, and structured 
                     for your workforce, with iOT’s benefit, getting live feeds on crops and plant conditioning 
                     backed with AI, with Social Having a daily task calendar working for you, and structured 
                     for your workforce, with iOT’s benefit.
                 </p>
-                <p class="text-white f-30 f-light">
+                <p class="text-white f-20 f-light">
                     Features all in your style Having a daily task 
                     calendar working for you, and structured for your workforce, with iOT’s benefit, getting 
                     live feeds on crops and plant conditioning backed with AI, with Social Having a daily task 
                     calendar working for you, and structured for your workforce, with iOT’s benefit,  features 
                     all in your style 
                 </p>
-                <p class="text-white f-30 f-light">
+                <p class="text-white f-20 f-light">
                     Features all in your style Having a daily task 
                     calendar working for you, and structured for your workforce, with iOT’s benefit, getting 
                     live feeds.
                 </p>
             </div>
 
-            <h1 class="text-white f-50">Our Values</h1>
-            <p class="text-teal sub-desc w-40 f-20">At Farmsby We Strive for Excellence And Some Of Our Core Values Includes:</p>
-            
+            <div class="text-center">
+                <h1 class="text-white f-50">Our Values</h1>
+                <p class="text-teal sub-desc w-40 f-20">At Farmsby We Strive for Excellence And Some Of Our Core Values Includes:</p>    
+            </div>
+
             <div class="container">
-                <div class="row">
+                <div class="row text-center">
                     <div class="col-md-6">
-                        <div class="our-thought p-4">
+                        <div class="our-thought p-5">
                             <h2 class="text-white">Mission</h2>
-                            <p class="text-white f-30 f-light">To offer everyone the opportunity to participate by investing and earning in agriculture using an open digital platform</p>
+                            <p class="text-white f-25 f-light">To offer everyone the opportunity to participate by investing and earning in agriculture using an open digital platform</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="our-thought p-4">
+                        <div class="our-thought p-5">
                             <h2 class="text-white">Vision</h2>
-                            <p class="text-white f-30 f-light">To inspire change in the way we farm, and to create a food-secure Africa through finance, information and collaboration.</p>
+                            <p class="text-white f-25 f-light">To inspire change in the way we farm, and to create a food-secure Africa through finance, information and collaboration.</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="text-center">
+                <p class="text-white sub-desc w-60 pushdown-x1 f-25">At Farmsby, our vision is to inspire change in the way we farm, and to create a food secure Africa through finance, information and collaboration.</p>
+            </div>
+            
+            <section class="community">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="text-white f-50">Be Part of Our Community</h1>
+                            <p class="text-white sub-desc pt-3">
+                            Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
+                            </p>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </section>
+
         </section>
 
         

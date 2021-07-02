@@ -15,6 +15,7 @@
 :root{ 
     --body-bg: linear-gradient(180deg, #368966 0%, #3DA871 100%);
     --white: #FFFFFF;
+    --teal: rgba(197, 229, 204, 1);
 }
 *{
     box-sizing: border-box;
@@ -103,7 +104,7 @@ ul.nav > li > a{
     height: auto;
     margin: 10px 10%;
 }
-.text-teal { color: rgba(197, 229, 204, 1);}
+.text-teal { color: var(--teal); }
 section.trade {
     display: inline-block;
     height: auto;
@@ -128,15 +129,29 @@ section.green {
     background-position: 50% 10%;
 }
 
+section.community {
+    display: inline-block;
+    height: auto;
+    min-height: 400px;
+    width: 80%;
+    margin: 2.5% 10%;
+    padding: 5%;
+    border-radius: 20px;
+    background: rgba(20, 82, 63, 1) url('../images/icon/community_pattern.svg') repeat;
+    background-position: 50% 10%;
+}
+
 .our-thought {
     display: inline-block;
     width: 80%;
     height: auto;
     min-height: 300px;
     margin: 5% 10%;
+    padding: 4% 10%;
     border-radius: 10px;
     border: 1px solid rgba(111, 207, 151, 1);
     background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
 }
 .our-thought > p.f-light { font-weight: 100; }
 
@@ -259,13 +274,18 @@ section.green {
 
 .f-5 { font-size: 5px; }
 .f-10 { font-size: 10px; }
+.f-15 { font-size: 15px; }
 .f-20 { font-size: 20px; }
+.f-25 { font-size: 25px; }
 .f-30 { font-size: 30px; }
 .f-40 { font-size: 40px; }
 .f-50 { font-size: 50px; }
 .f-60 { font-size: 60px; }
 .f-70 { font-size: 70px; }
 .f-80 { font-size: 80px; }
+
+.pl-10 { padding-left: 10%; }
+.pr-10 { padding-right: 10%; }
 
 .icon_holder {
     height: 216px;
