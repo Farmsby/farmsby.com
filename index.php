@@ -25,7 +25,7 @@
 
         <div class="hero container">
             <div class="row">
-                <div class="col-md-6 col-sm-12 pushdown-x3">
+                <div class="col-md-6 col-sm-12 pushdown-x2">
                     <h1 class="text-white f-50">Farmsby - Future of Agriculture in Africa</h1>
                     <p class="text-teal">Farmsby is building a functional tech ecosystem to ease Farming, trade and distribution of Agric Produce</p>
                     <a href="#" class="btn btn-lg btn-success">Get Started</a>
@@ -41,14 +41,22 @@
             <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Trade</p>
             <h1 class="text-white f-50">A <span class="underline"> Market </span> at your <br> Convenience</h1>
 
-            <img src="./assets/images/icon/trade.svg" alt="" class="pushdown-x2 w-70">
+            <img src="./assets/images/icon/trade.svg" alt="" class="pushdown-x2 pb-5 w-70">
         </section>
 
         <section class="fresh text-center">
             <p class="text-white italics post-title f-20 pushdown-x1">Farmsby Fresh</p>
             <h1 class="text-white f-50">Farmsby Fresh <br> in few click</h1>
             <p class="text-white sub-desc w-40">Get your favorite food and snacks delivered at your doorsteps all day, everyday</p>
-            <img src="./assets/images/icon/fresh steps.svg" class="pushdown-x1" alt="">
+            <div class="wraper">
+                <ul class="container-y">
+                    <li class="link active"><a href="">Select <br> Location</a></li>
+                    <li class="link"><a href="">Pick <br> Some Items</a></li>
+                    <li class="link"><a href="">Proceed <br> Checkout</a></li>
+                    <li class="link"><a href="">Make <br> Payment</a></li>
+                    <li class="link"><a href="">Recieve <br> Fresh</a></li>
+                </ul>
+            </div>
             <img src="./assets/images/extras/fresh-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-green">
         </section>
 
