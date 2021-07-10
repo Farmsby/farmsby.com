@@ -245,6 +245,36 @@ section.community {
     line-height: 1.5;
   }
 
+.inputfield { height: 55px; }
+.inputfield-y { height: 200px; }
+
+.inputfield,
+.inputfield-y {
+    border: 1px solid #C5E5CC;
+    background: #3DA071;
+    box-sizing: border-box;
+    border-radius: 7px;
+    outline: none;
+    font-size: 14px;
+    color: rgba(197, 229, 204, 1);
+}
+.inputfield::placeholder,
+.inputfield-y::placeholder {
+    color: rgba(197, 229, 204, 1);
+}
+.inputfield:focus,
+.inputfield-y:focus {
+    background: #41be84;
+    color: #ffffff;
+    outline: none;
+}
+.c-btn { 
+    background-color: transparent !important; 
+    border: none;
+    float: right;
+    color: #C5E5CC;
+}
+.c-btn > img { display: inline-table; height: 30px;}
 .content {
     display: inline-block;
     height: auto;
