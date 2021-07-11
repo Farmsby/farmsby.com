@@ -23,32 +23,22 @@
 
         <div class="hero container">
             <div class="row">
-                <div class="col-md-12 col-sm-12 pushdown-x2 text-center">
-                    <h1 class="text-white f-50">Say Hi</h1>
-                    <p class="text-teal f-20">We’ll be happy to answer all your questions or inquiries, feel free to say Hello.</p>
+                <div class="col-md-12 col-sm-12 pushdown-x2 text-left">
+                    <h1 class="text-white f-50 w-40">Commonly Question Asked</h1>
+                    <p class="text-teal f-20 w-45">Get answers to commonly-asked questions about our business and what we do. </p>
                 </div>
             </div>
         </div>
 
         <section>
-            <form action="" class="container p-5">
-                <div class="row pb-3">
-                    <div class="col">
-                        <input type="text" class="form-control inputfield" placeholder="First name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control inputfield" placeholder="Last name">
-                    </div>
+            <form action="" class="container p-5=">
+                <div class="search-field">
+                    <input type="search" class="form-control inputfield" placeholder="Search for Anything">
+                    <button type="submit" class="c-btn pt-3">
+                        Get Lucky <img src="./assets/images/icon/bi_arrow-right.svg" alt="">
+                    </button>
                 </div>
-                <div class="form-group pb-3">
-                    <input type="text" class="form-control inputfield" placeholder="Email">
-                </div>
-                <div class="form-group pb-3">
-                    <textarea class="form-control inputfield-y" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="c-btn">
-                    Send Message <img src="./assets/images/icon/bi_arrow-right.svg" alt="">
-                </button>
+                
             </form>
         </section>
 

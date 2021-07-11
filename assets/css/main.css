@@ -143,11 +143,23 @@ section.community {
 
 .our-thought {
     display: inline-block;
-    width: 80%;
+    width: 70%;
+    height: auto;
+    min-height: 300px;
+    margin: 5% 15%;
+    padding: 4% 10%;
+    border-radius: 10px;
+    border: 1px solid rgba(111, 207, 151, 1);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+.our-thought-2 {
+    display: inline-block;
+    width: 70%;
     height: auto;
     min-height: 300px;
     margin: 5% 10%;
-    padding: 4% 10%;
+    padding: 4% 30% 0 0;
     border-radius: 10px;
     border: 1px solid rgba(111, 207, 151, 1);
     background: rgba(0, 0, 0, 0.2);
@@ -164,6 +176,7 @@ section.community {
 .w-20 { width: 20%; }
 .w-30 { width: 30%; }
 .w-40 { width: 40%; }
+.w-45 { width: 45%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
 .w-70 { width: 70%; }
@@ -175,11 +188,34 @@ section.community {
 .post-title { font-weight: 600;  }
 .sub-desc { display: inline-table; }
 .b-10-green { border: 10px solid #368966; }
+.b-10-yellow { border: 10px solid #F6B06F; }
 
 .underline {
     background-image: url('../images/icon/underline.svg');
     background-repeat: no-repeat; 
     background-position: 65% 100%;
+}
+
+.team-image {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background: #6FCF97;
+    border-radius: 30px;
+}
+
+.team-name {
+    color: var(--white);
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.team-name span {
+    font-size: 26px;
+    display: block;
+    font-weight: 700;
 }
 
 .wraper {
@@ -244,7 +280,14 @@ section.community {
     margin: 50px auto;
     line-height: 1.5;
   }
-
+.search-field {
+    width: 87%;
+    margin: 6.5%;
+}
+.search-field input {
+    height: 70px;
+    background: #1F7049;
+}
 .inputfield { height: 55px; }
 .inputfield-y { height: 200px; }
 

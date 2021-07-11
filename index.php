@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 pushdown-x2">
                     <h1 class="text-white f-50">Farmsby - Future of Agriculture in Africa</h1>
-                    <p class="text-teal">Farmsby is building a functional tech ecosystem to ease Farming, trade and distribution of Agric Produce</p>
+                    <p class="text-teal">Farmsby is Building a functional tech ecosystem to simplify farming, agro-trade and distribution of Agric Produce</p>
                     <a href="#" class="btn btn-lg btn-success">Get Started</a>
                     <a href="#" class="btn text-white pb-4 underline" style="margin-left: 15px;">Learn more</a>
                 </div>
@@ -39,15 +39,15 @@
 
         <section class="trade pushdown-x1 text-center">
             <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Trade</p>
-            <h1 class="text-white f-50">A <span class="underline"> Market </span> at your <br> Convenience</h1>
-
-            <img src="./assets/images/icon/trade.svg" alt="" class="pushdown-x2 pb-5 w-70">
+            <h1 class="text-white f-50">A <span class="underline"> Market </span> at your <br> Fingertips</h1>
+            <p class="text-white sub-desc w-40">Buy and sell foodstuff in large quantities. Leverage on our network of farmers - large- and small-scale to gain access to huge quantities of agricultural products. Tap into the large market to sell off your produce without breaking a sweat.</p>
+            <img src="./assets/images/extras/fresh-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-yellow">
         </section>
 
         <section class="fresh text-center">
             <p class="text-white italics post-title f-20 pushdown-x1">Farmsby Fresh</p>
-            <h1 class="text-white f-50">Farmsby Fresh <br> in few click</h1>
-            <p class="text-white sub-desc w-40">Get your favorite food and snacks delivered at your doorsteps all day, everyday</p>
+            <h1 class="text-white f-50">Farmsby Fresh <br> in a few click</h1>
+            <p class="text-white sub-desc w-40">Quite an amount of food sold today is either stale or packaged. If you love fresh food, Farmsby Fresh is for you. Get fresh food items sourced from nearby farms delivered to you directly to your home or office.</p>
             <div class="wraper">
                 <ul class="container-y">
                     <li class="link active"><a href="">Select <br> Location</a></li>
@@ -62,8 +62,8 @@
 
         <section class="green text-center green-bg-icon">
             <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Green</p>
-            <h1 class="text-white f-50">Manage your farm <br> in one click</h1>
-            <p class="text-white sub-desc w-40">Farm easy with Farmsby Green, all you need to farm green all in your style </p>
+            <h1 class="text-white f-50">Manage your farm <br> with a few click</h1>
+            <p class="text-white sub-desc w-40">Plan your daily tasks with a smart calendar. Enjoy the benefits of the Internet of Things. Get live feeds on your crops and assets with forecasts and predictions from our smart AI.</p>
             <img src="./assets/images/extras/green-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-green">
         </section>
 
@@ -71,9 +71,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="text-white f-40">Be Part of Our Community</h1>
+                        <h1 class="text-white f-40">Join Africa’s Foremost Agric Co-op</h1>
                         <p class="text-white sub-desc pt-3">
-                        Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
+                            Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
                         </p>
                     </div>
                     <div class="col-md-6"></div>

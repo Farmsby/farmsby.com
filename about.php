@@ -25,8 +25,8 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 pushdown-x3">
                     <h1 class="text-white f-50">Get to Know Us</h1>
-                    <p class="text-teal">Farmsby is building a functional tech ecosystem to ease farming, trade and distribution of Agric Produce</p>
-                    <p class="btn text-white pb-4 underline">We’re a team of young talents</p>
+                    <p class="text-teal w-90">Farmsby is building a functional tech ecosystem to ease farming, trade and distribution of Agric Produce</p>
+                    <a class="btn text-white pb-4 underline" href="./team">We’re a team of young talents</a>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <img src="./assets/images/icon/about.svg" alt="">
@@ -40,23 +40,10 @@
 
             <div class="our-thought text-center">
                 <p class="text-white f-20 f-light">
-                    Having a daily task calendar working for you, and structured for your workforce, 
-                    with iOT’s benefit, Having a daily task calendar working for you, and structured 
-                    for your workforce, with iOT’s benefit, getting live feeds on crops and plant conditioning 
-                    backed with AI, with Social Having a daily task calendar working for you, and structured 
-                    for your workforce, with iOT’s benefit.
+                    Agriculture has evolved tremendously from the days of subsistence to enterprise-scale farming. Right before our eyes, our generation has witnessed this rapid evolution crank up in terms of speed and scale. Africa still has a lot of catching up to do with the rest of the world in the agricultural niche.
                 </p>
                 <p class="text-white f-20 f-light">
-                    Features all in your style Having a daily task 
-                    calendar working for you, and structured for your workforce, with iOT’s benefit, getting 
-                    live feeds on crops and plant conditioning backed with AI, with Social Having a daily task 
-                    calendar working for you, and structured for your workforce, with iOT’s benefit,  features 
-                    all in your style 
-                </p>
-                <p class="text-white f-20 f-light">
-                    Features all in your style Having a daily task 
-                    calendar working for you, and structured for your workforce, with iOT’s benefit, getting 
-                    live feeds.
+                    Farmsby is on a mission to revolutionise farming in Africa. By means of education and innovative, cutting-edge technology, we are modernising and simplifying agriculture in Africa, giving farmers the opportunity to join the global agricultural revolution, helping them yield better results and make more profits.
                 </p>
             </div>
 
@@ -68,13 +55,13 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-6">
-                        <div class="our-thought p-5">
+                        <div class="our-thought-2 p-5">
                             <h2 class="text-white">Mission</h2>
-                            <p class="text-white f-25 f-light">To offer everyone the opportunity to participate by investing and earning in agriculture using an open digital platform</p>
+                            <p class="text-white f-25 f-light">We are on a mission to become Africa’s foremost agri-tech company, improving the agricultural value chain across the continent.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="our-thought p-5">
+                        <div class="our-thought-2 p-5">
                             <h2 class="text-white">Vision</h2>
                             <p class="text-white f-25 f-light">To inspire change in the way we farm, and to create a food-secure Africa through finance, information and collaboration.</p>
                         </div>
@@ -90,9 +77,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="text-white f-40">Be Part of Our Community</h1>
+                            <h1 class="text-white f-40">Join Africa’s Foremost Agric Co-op</h1>
                             <p class="text-white sub-desc pt-3">
-                            Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
+                                Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
                             </p>
                         </div>
                         <div class="col-md-6"></div>
