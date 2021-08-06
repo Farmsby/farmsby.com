@@ -1,103 +1,314 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
+    <!--====== USEFULL META ======-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmsby | About Us</title>
-    <link rel="stylesheet" href="./assets/libraries/bootstrap5/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/libraries/fontawesome/css/all.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/custom.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Secular+One&display=swap"
-        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Farmsby - Building an Africa that feeds the world" />
+    <meta name="keywords" content="Africa, Investment, Platform, Agro, Farmsby, Farm, Greencycle, About, History" />
+
+    <!--====== TITLE TAG ======-->
+    <title>Farmsby - About </title>
+
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.png" />
+
+    <!--====== STYLESHEETS ======-->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet">
+    <link href="assets/css/typography.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/blog-and-pages.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 </head>
 
-<body>
-    <div class="bg_pattern">
-        <!-- Code within this block -->
-        <?php include_once './widgets/header.php'; ?>
+<body class="overflow-xhidden home-three" data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
 
-        <div class="hero container">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--- PRELOADER -->
+    <div class="preeloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <?php
+        $data['banner'] = "About Farmsby";
+        $uri['about'] = "active";
+        $uri['overview'] = $uri['career'] = $uri['contact'] = NULL; 
+        include_once 'widgets/min-header.php'; 
+    ?>
+    <!--<section class="about-area" style="padding-top:5px;padding-bottom:5px;background-color:#66B42C;color:#fff;border:none;text-align: center;" id="about">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12 pushdown-x3">
-                    <h1 class="text-white f-50">Get to Know Us</h1>
-                    <p class="text-teal w-90">Farmsby is building a functional tech ecosystem to ease farming, trade and distribution of Agric Produce</p>
-                    <a class="btn text-white pb-4 underline" href="./team">We’re a team of young talents</a>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <img src="./assets/images/icon/about.svg" alt="">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                    <p style="font-weight:600;">
+                        The farmsby Team comprises of agricultural, technology and finance experts who having spent years in their various fields have come together to create space for everyone to participate in agriculture through crowd-funding farms.
+                    </p>
                 </div>
             </div>
         </div>
-
-        <section class="pushdown-x1">
-            <p class="text-teal italics post-title f-20 pushdown-x1 text-center">Our Drive</p>
-            <h1 class="text-white f-50 text-center">The Future of <br> Agriculture</h1>
-
-            <div class="our-thought text-center">
-                <p class="text-white f-20 f-light">
-                    Agriculture has evolved tremendously from the days of subsistence to enterprise-scale farming. Right before our eyes, our generation has witnessed this rapid evolution crank up in terms of speed and scale. Africa still has a lot of catching up to do with the rest of the world in the agricultural niche.
-                </p>
-                <p class="text-white f-20 f-light">
-                    Farmsby is on a mission to revolutionise farming in Africa. By means of education and innovative, cutting-edge technology, we are modernising and simplifying agriculture in Africa, giving farmers the opportunity to join the global agricultural revolution, helping them yield better results and make more profits.
-                </p>
-            </div>
-
-            <div class="text-center">
-                <h1 class="text-white f-50">Our Values</h1>
-                <p class="text-teal sub-desc w-40 f-20">At Farmsby We Strive for Excellence And Some Of Our Core Values Includes:</p>    
-            </div>
-
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="our-thought-2 p-5">
-                            <h2 class="text-white">Mission</h2>
-                            <p class="text-white f-25 f-light">We are on a mission to become Africa’s foremost agri-tech company, improving the agricultural value chain across the continent.</p>
-                        </div>
+    </section>-->
+    <!--PROCESS AREA-->
+    <section class="process-two-area padding-100-50" id="process">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                    <div class="area-title center">
+                        <h4 class="subtitle">Why we are here</h4>
+                        <h2>Our Drive</h2>
                     </div>
-                    <div class="col-md-6">
-                        <div class="our-thought-2 p-5">
-                            <h2 class="text-white">Vision</h2>
-                            <p class="text-white f-25 f-light">To inspire change in the way we farm, and to create a food-secure Africa through finance, information and collaboration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="process-icon-two"><i class="dripicons-anchor"></i></div>
+                        <h3>Mission</h3>
+                        <p>
+                            To offer everyone the opportunity to participate by investing and earning in agriculture using an open digital platform
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="process-icon-two"><i class="dripicons-lightbulb"></i></div>
+                        <h3>Vision</h3>
+                        <p>
+                            To inspire change in the way we farm, and to create a food secure Africa through finance, information and collaboration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--PROCESS AREA END-->
+
+        <!--PROCESS AREA-->
+    <section class="process-two-area padding-100-50 gray-bg" id="process">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                    <div class="area-title center">
+                        <h4 class="subtitle">our process</h4>
+                        <h2>Behind the Screens</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="process-icon-two"><i class="dripicons-enter"></i></div>
+                        <h3>Receive</h3>
+                        <p>
+                            Using secure payment gateways like Paystack, Paga and First Money, we have developed a seamless system for safe receipt of funds. We also have a user friendly dashboard that gives you real time analytics of your investment growth rate, all from the ease of your smart phone.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft active" data-wow-delay="0.6s">
+                        <div class="process-icon-two"><i class="dripicons-basket"></i></div>
+                        <h3>Finance</h3>
+                        <p>
+                            We provide farmers who meet our standards of agronomic practices, with improved varieties of disease resistant and high yielding seeds, modern irrigation infrastructure, eco-friendly pesticides and fertilizers, insurance cover against crop failure and natural disasters, and standard operational over heads. We compel partner-farms to cultivate crops with divergent yield times, produce size and market price volatility, diversifying risk and ensuring profitability.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box hidden-sm wow fadeInLeft mb50 mt40" data-wow-delay="0.9s">
+                        <div class="process-icon-two"><i class="dripicons-archive"></i></div>
+                        <h3>Remit</h3>
+                        <p>
+                            At the expiration of each farming cycle, and depending on the particular investment package, your dividend is automatically credited into your online account on our platform. You have the option to withdraw immediately and should expect an actual transfer of funds within a few hours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--PROCESS AREA END-->
+    
+    <section class="process-area padding-100-50" id="package">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                    <div class="area-title center">
+                        <h2>Investment Packages</h2>
+                        <h4 class="subtitle" style="font-size: 13px;">We currently have two investment packages carefully tailored to suit almost every budget.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="process-content">
+                        <div class="area-bg"></div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="single-process-box text-icon-box xs-mb50 wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="process-icon"><i class="dripicons-view-thumb"></i></div>
+                                    <h3>STANDARD INVESTMENT</h3>
+                                    <p style="text-align: left;font-size: 14px">Starting from as low as NGN 5000, the Standard Investment package affords middle and low income earners the opportunity to fund farms by pooling their funds together.  The package offers 12.5% ROI every 90 days (3 months), which serves as a better alternative to regular saving . The maximum amount allowed for this package is NGN 500,000. Investors can put in regularly invest small amounts and watch their funds grow over time.</p>
+                                    <p align="left" style="font-size:18px;color:#25D04E;">
+                                        <strong class="color:#FF6767">MINIMUM INVESTMENT:</strong> NGN 5,000 <br>
+                                        <strong class="color:#FF6767">MAXIMUM INVESTMENT:</strong> NGN 500,000 <br>
+                                        <strong class="color:#FF6767">ROI:</strong> 50% per annum <br>
+                                        <strong class="color:#FF6767">MINIMUM CYCLE:</strong> 90 days <br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="single-process-box text-icon-box xs-mb50 wow fadeInLeft" data-wow-delay="0.6s">
+                                    <div class="process-icon"><i class="dripicons-contract-2"></i></div>
+                                    <h3>JOINT VENTURE</h3>
+                                    <p style="text-align: left;font-size: 14px">The Joint Venture investment package allows investors have partnerships with our partner farms through Farmsby. It is best for those who seek to make substantial investments and reap same as dividend. This package offers investors an impressive 37.5% ROI every 6 months. Starting at NGN 500,000, the Joint Venture package offers investors frequent reports on the farms and crops that are being cultivated with their funds. This includes monthly newsletters and picture reports of farm progress and crop development. </p>
+                                    <p align="left" style="font-size:18px;color:#25D04E;"> 
+                                        <strong class="color:#FF6767">MINIMUM INVESTMENT:</strong> NGN 500,000 <br>
+                                        <strong class="color:#FF6767">MAXIMUM INVESTMENT:</strong> NGN 10,000,000 <br>
+                                        <strong class="color:#FF6767">ROI:</strong> 75% per annum <br>
+                                        <strong class="color:#FF6767">MINIMUM CYCLE:</strong> 180 days <br>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="text-center">
-                <p class="text-white sub-desc w-60 pushdown-x1 f-25">At Farmsby, our vision is to inspire change in the way we farm, and to create a food secure Africa through finance, information and collaboration.</p>
-            </div>
-            
-            <section class="community">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h1 class="text-white f-40">Join Africa’s Foremost Agric Co-op</h1>
-                            <p class="text-white sub-desc pt-3">
-                                Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
-                            </p>
-                        </div>
-                        <div class="col-md-6"></div>
+    <!--ABOUT AREA-->
+    <section class="about-area section-padding gray-bg" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                    <div class="area-title center">
+                        <h2>Sustainability Charter</h2>
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                    <p>
+                        While we take all the necessary steps in ensuring that our investors are satisfied, we are also committed to the environment and in helping farmers build capacity. With goals 1, 2 & 12 of the United Nations Sustainable Development Goals at the heart of all our endeavors, it is safe to say that we are purpose driven in the actualization of our vision of creating a food secure Africa through finance, information and collaboration. 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <br><br>
+                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/goal1.png">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/goal2.png">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="images/goal12.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT AREA END-->
 
-        </section>
+    <!--ABOUT AREA-->
+    <section class="about-area section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                    <div class="area-title center">
+                        <h2>Farmsby is</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="process-icon-three"><i class="dripicons-toggles"></i></div>
+                        <h3>Personal</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="process-icon-three"><i class="dripicons-lightbulb"></i></div>
+                        <h3>Innovative</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="process-icon-three"><i class="dripicons-lock"></i></div>
+                        <h3>Secure</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-process-box-two text-icon-box mb50 mt40 wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="process-icon-three"><i class="dripicons-trophy"></i></div>
+                        <h3>Reliable</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT AREA END-->
 
-        
-        <!-- Code within this block -->
-    </div>
+    <!--FOOER AREA-->
+    <?php include_once 'widgets/footer.php'; ?>
+    <!--FOOER AREA END-->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147734465-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/config.js"></script>
-    <script src="./assets/js/app.js"></script>
-    <script src="./assets/libraries/bootstrap5/js/bootstrap.js"></script>
-    <script src="./assets/libraries/fontawesome/js/all.js"></script>
+      gtag('config', 'UA-147734465-1');
+    </script>
+
+    <!--====== SCRIPTS JS ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <!--====== PLUGINS JS ======-->
+    <script src="assets/js/vendor/jquery.easing.1.3.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/vendor/jquery.appear.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/stellar.js"></script>
+    <script src="assets/js/jquery.parallax-layer-scroll.js"></script>
+    <script src="assets/js/chaffle.min.js"></script>
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/js/stellarnav.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/placeholdem.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+    <script src="assets/js/footer-reveal.min.js"></script>
+    <script src="assets/js/ResizeSensor.min.js"></script>
+    <script src="assets/js/theia-sticky-sidebar.min.js"></script>
+
+    <!--===== ACTIVE JS=====-->
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

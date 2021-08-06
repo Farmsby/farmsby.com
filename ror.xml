@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://farmsby.com/</title>
+  <link>https://farmsby.com/</link>
+
+<item>
+     <link>https://farmsby.com/</link>
+     <title>Farmsby</title>
+     <description>Farmsby - Africa's most lucrative agro investment platform</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/index</link>
+     <title>Farmsby</title>
+     <description>Farmsby - Africa's most lucrative agro investment platform</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/about</link>
+     <title>Farmsby - About </title>
+     <description>Farmsby - Building an Africa that feeds the world</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/farm</link>
+     <title>Farmsby - About </title>
+     <description>Farmsby - Building an Africa that feeds the world</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/contact</link>
+     <title>Farmsby - Contact</title>
+     <description>Farmsby - We always have our ears open for a call out</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/faq</link>
+     <title>Farmsby - FAQ </title>
+     <description>Farmsby - Building an Africa that feeds the world</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/legal</link>
+     <title>Legal</title>
+     <description>Legal</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://farmsby.com/partnership</link>
+     <title>Farmsby - Partner Farms</title>
+     <description>Farmsby - We always have our ears open for a call out</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

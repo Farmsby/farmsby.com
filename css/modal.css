@@ -1,0 +1,89 @@
+.overlay {
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    transition: opacity 1s ease;
+}
+
+.topnav {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 6px 7%;
+	font-weight: 600;
+	background-color: #4ED14D;
+	color: #fff;
+	z-index: 100;
+}
+
+a.votebutton-sm {
+	display: inline-block;
+	border-radius: 50px;
+	border: 1px solid #030304;
+	background: #030304;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 1px 15px;
+}
+
+.adPop {
+  	position: static;
+	height: auto;
+	min-height: 220px;
+	width: 600px;
+	bottom: 10px;
+	float: right;
+	left: 0px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-image: url('../images/pop.png');
+	z-index: 1001;
+}
+
+.votespace {
+    position: relative;
+    display: block;
+    height: 60px;
+    float: right;
+    bottom: 0;
+    top: 70px;
+	right: 5px;
+    vertical-align: middle;
+}
+
+a.votebutton {
+	display: inline-block;
+	top: 50%;
+	border-radius: 50px;
+	border: 1px solid #4ED14D;
+	background: #4ED14D;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 3px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .adPop {
+	  	position: static;
+		height: auto;
+		min-height: 220px;
+		width: 365px;
+		bottom: 10px;
+		float: right;
+		left: 0px;
+		margin-top: 10px;
+		margin-right: 5px;
+		background-image: url('../images/pop.png');
+		z-index: 1001;
+	}
+}
