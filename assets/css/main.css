@@ -29,6 +29,7 @@ body {
     overflow-x: hidden;
     width: 100vw;
     height: 100%;
+    max-height: 400vw;
     background: linear-gradient(180deg, #368966 0%, #3DA871 100%);
     background-attachment: fixed;
 }

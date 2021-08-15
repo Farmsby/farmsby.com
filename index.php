@@ -41,7 +41,7 @@
             <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Trade</p>
             <h1 class="text-white f-50">A <span class="underline"> Market </span> at your <br> Fingertips</h1>
             <p class="text-white sub-desc w-40">Buy and sell foodstuff in large quantities. Leverage on our network of farmers - large- and small-scale to gain access to huge quantities of agricultural products. Tap into the large market to sell off your produce without breaking a sweat.</p>
-            <img src="./assets/images/extras/trade-screen.jpg" alt="" class="pushdown-x1 w-60 b-10-yellow">
+            <img src="./assets/images/extras/trade-screen.jpg" alt="" class="pushdown-x2 w-60 b-10-yellow">
         </section>
 
         <section class="fresh text-center">

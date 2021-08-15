@@ -33,112 +33,112 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Aquila Kalabor
                             <span>CEO</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Boumote Digitemie
                             <span>CFO</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Precious Tom
                             <span>CTO</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Precious Itolima
                             <span>COO</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Daberechi Ubochi
                             <span>HOF</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Akachi Njoku
                             <span>Product Manager</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             ImohdeAndre Anselem
                             <span>Social Media</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Chinonmso Ugwuanya
                             <span>Technical Writer</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Joy Ugoyah
                             <span>Lead Content Writer</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Abednego Edet
                             <span>Engineer</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Mary Itolima
                             <span>Customer Rep</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Ese Asuelimen
                             <span>Content Writer</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Onungwe Elizabeth
                             <span>Finance</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Pere Bote
                             <span>Farms & Transport</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <p class="team-name">
                             Miracle
                             <span>Farms Operation</span>
                         </p>
                     </div>
-                    <div class="col-md-3 text-center pt-3">
+                    <div class="col-md-3 col-sm-6 text-center pt-3">
                         <div class="team-image"></div>
                         <!-- <p class="team-name">
                             Ese Asuelimen
