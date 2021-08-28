@@ -3,92 +3,352 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmsby | Africa's Most Lucrative Agro Investment Platform</title>
-    <link rel="stylesheet" href="./assets/libraries/bootstrap5/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/libraries/fontawesome/css/all.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/custom.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Secular+One&display=swap"
-        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmsby</title>
+    <meta name="description" content="Building the AgroEcosystem in Africa">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
-    <div class="bg_pattern">
-        <!-- Code within this block -->
-        <?php 
-            include_once './widgets/header.php'; 
-        ?>
-
-        <div class="hero container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 pushdown-x2">
-                    <h1 class="text-white f-50">Farmsby - Future of Agriculture in Africa</h1>
-                    <p class="text-teal">Farmsby is Building a functional tech ecosystem to simplify farming, agro-trade and distribution of Agric Produce</p>
-                    <a href="#" class="btn btn-lg btn-success">Get Started</a>
-                    <a href="#" class="btn text-white pb-4 underline" style="margin-left: 15px;">Learn more</a>
+    <?php include_once './widgets/header.php'; ?>
+    <section class="hero-section">
+        <div class="hero-section__background"> </div>
+        <div class="hero-section__slider">
+            <div class="slide global-u-text-center">
+                <h1 class="hero-section__primary-title">Building the Agriculture for Africa's future</h1>
+                <h2 class="hero-section__secondary-title">Farmsby helps farmers and businesses into agriculture, plant, manage, buy, sell, save anywhere in the Africa.</h2>
+                <div class="hero-section__call-to-action">
+                    <a class="button button--large button--green" href="https://app.farmsby.com/join">Get Started for free</a>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <img src="./assets/images/icon/africa 1.svg" alt="">
+            </div>
+            <div class="slide__lines">
+                <div class="slide__line slide__line--horizontal"></div>
+                <div class="slide__line slide__line--horizontal"></div>
+                <div class="slide__line slide__line--vertical"></div>
+                <div class="slide__line slide__line--vertical"></div>
+            </div>
+        </div>
+    </section>
+    <section class="home-section home-section--intro">
+        <div class="container container--md">
+            <div class="grid">
+                <div class="grid__column grid__column--6">
+                    <div class="home-section-header">
+                        <h4 class="feature-section-header__label pb-2">Farmsby Fresh 🍅</h4>
+                        <h2 class="home-section-header__primary-title">Fresh products at your fingertips</h2>
+                        <h3 class="home-section-header__secondary-title">Save the hassle of a trip to the market every week. Farmsby delivers organic and fresh organic produce to your door step in Port Harcourt and Lagos.</h3>
+                    </div>
+                    <div class="home-section__setup-steps">
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Fresh farm Produce</h3>
+                            <p class="setup-step__message">We know that food its Power. So we get you the best quality at its freshest. From the cleanest Sources. Packed and ready for your favourite meal.</p>
+                        </div>
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Delivered on time</h3>
+                            <p class="setup-step__message">Rowdy markets, Heavy Bags, long hours in traffic. Get your food stuff delivered to your home or office at your preferred time.</p>
+                        </div>
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Affordable variety</h3>
+                            <p class="setup-step__message">Find 100s of different food items and groceries in our menu at the best prizes (and best sizes) you can find anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--6">
+                    <div class="home-section__checkout-demo">
+                        <div class="checkout--bounce">
+                            <img src="./images/mockups/freshmobile.png" alt="Farmsby Fresh" class="grid__column--12">
+                        </div>
+                        <div class="global-u-text-center">
+                            <a href="#" class="feature-section-header__label">Click to visit farmsbyfresh.com 🚀</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <section class="trade pushdown-x1 text-center">
-            <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Trade</p>
-            <h1 class="text-white f-50">A <span class="underline"> Market </span> at your <br> Fingertips</h1>
-            <p class="text-white sub-desc w-40">Buy and sell foodstuff in large quantities. Leverage on our network of farmers - large- and small-scale to gain access to huge quantities of agricultural products. Tap into the large market to sell off your produce without breaking a sweat.</p>
-            <img src="./assets/images/extras/trade-screen.jpg" alt="" class="pushdown-x2 w-70 b-10-yellow">
-        </section>
-
-        <section class="fresh text-center">
-            <p class="text-white italics post-title f-20 pushdown-x1">Farmsby Fresh</p>
-            <h1 class="text-white f-50">Farmsby Fresh <br> in a few click</h1>
-            <p class="text-white sub-desc w-40">Quite an amount of food sold today is either stale or packaged. If you love fresh food, Farmsby Fresh is for you. Get fresh food items sourced from nearby farms delivered to you directly to your home or office.</p>
-            <div class="wraper">
-                <ul class="container-y">
-                    <li class="link active"><a href="">Select <br> Location</a></li>
-                    <li class="link"><a href="">Pick <br> Some Items</a></li>
-                    <li class="link"><a href="">Proceed <br> Checkout</a></li>
-                    <li class="link"><a href="">Make <br> Payment</a></li>
-                    <li class="link"><a href="">Recieve <br> Fresh</a></li>
-                </ul>
-            </div>
-            <img src="./assets/images/extras/fresh-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-green">
-        </section>
-
-        <section class="green text-center green-bg-icon">
-            <p class="text-teal italics post-title f-20 pushdown-x1">Farmsby Green</p>
-            <h1 class="text-white f-50">Manage your farm <br> with a few click</h1>
-            <p class="text-white sub-desc w-40">Plan your daily tasks with a smart calendar. Enjoy the benefits of the Internet of Things. Get live feeds on your crops and assets with forecasts and predictions from our smart AI.</p>
-            <img src="./assets/images/extras/green-screen.jpg" alt="" class="pushdown-x1 w-70 b-10-green">
-        </section>
-
-        <section class="community">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="text-white f-40">Join Africa’s Foremost Agric Co-op</h1>
-                        <p class="text-white sub-desc pt-3">
-                            Farmsby Community is Made Up of agroconomists, farmers, agro experts, students and all lovers of sgriculture who wish to share common knowledge and support each other with resources to help their practice scale.
-                        </p>
+    </section>
+    <section class="home-section home-section--features">
+        <div class="container container--md">
+            <div class="grid">
+                <div class="grid__column grid__column--6">
+                    <div class="home-section__checkout-demo-2 pb-4">
+                        <div class="checkout--bounce">
+                            <img src="./images/mockups/greenmobile.png" alt="Farmsby Fresh" class="grid__column--12">
+                        </div>
+                        <div class="global-u-text-center">
+                            <a href="#" class="feature-section-header__label">Coming soon 🤘🏾</a>
+                        </div>
                     </div>
-                    <div class="col-md-6"></div>
+                </div>
+                <div class="grid__column grid__column--6">
+                    <div class="home-section-header">
+                        <h4 class="feature-section-header__label pb-2">Farmsby Green ☘️</h4>
+                        <h2 class="home-section-header__primary-title">All of your farm in one place</h2>
+                        <h3 class="home-section-header__secondary-title">Farmsby Green is a Collaborative and decentralized farm management software, designed to enable farmers in emerging markets maximize profit by making decisions informed by data.</h3>
+                    </div>
+                    <div class="home-section__setup-steps">
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Monitor your Farm</h3>
+                            <p class="setup-step__message">We are leveraging the power of IoT to bring Precision Ag to the average farmer. Increase efficiency through, task/personnel management. Connect to drones, sensors to cameras to increase  and capture every bit of data about your farm from soil quality to plant health.</p>
+                        </div>
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Increase Productivity</h3>
+                            <p class="setup-step__message">Improve output but taking decisions informed by big data, soil, weather pest or disease info. Follow an optimal guide for your farm. Cut paper work buy having all your information in one digital platform.</p>
+                        </div>
+                        <div class="setup-step">
+                            <div class="setup-step__number">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h3 class="setup-step__title">Collaborate</h3>
+                            <p class="setup-step__message">Join a network of farmers around you. Solve problems, and share resources on the fly. Stay informed of latest trends and happenings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="feature-section feature-section--dark feature-section--has-padding" id="payment-pages">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__column grid__column--6">
+                    <div class="home-section__checkout-demo-2">
+                        <div class="checkout--bounce">
+                            <div class="checkout__form">
+                                <div class="grid grid--with-gutters">
+                                    <div class="grid__column grid__column--12">
+                                        <div class="checkout-input-group">
+                                            <input class="checkout-input-group__field" type="email" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="grid__column grid__column--6 grid__column--6-s">
+                                        <div class="checkout-input-group">
+                                            <input class="checkout-input-group__field" type="text" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="grid__column grid__column--6 grid__column--6-s">
+                                        <div class="checkout-input-group">
+                                            <input class="checkout-input-group__field" type="tel" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="grid__column grid__column--12">
+                                        <div class="checkout-input-group">
+                                            <div class="button button--green button--large button--full">
+                                                Receive Invite 🚀
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--6">
+                    <h4 class="feature-section-header__label">Join our Network 🤘🏾</h4>
+                    <h2 class="feature-section-header__primary-title">Join our virtual Co-Op</h2>
+                    <p class="global-u-body-excerpt">We are building Africa’s largest functional digital ecosystem for Agriculture. It’s a network of farmers Aggregators, Processors, Exporters input providers and consumers.</p>
+                    <ul class="setup-steps-container">
+                        <li class="setup-step setup-step--list">
+                            <div class="setup-step__number"><span></span><span></span></div>
+                            <p class="setup-step__title">Stay up to date with trends and opportunities</p>
+                        </li>
+                        <li class="setup-step setup-step--list">
+                            <div class="setup-step__number"><span></span><span></span></div>
+                            <p class="setup-step__title">Learn and be part of impactful an exciting project</p>
+                        </li>
+                        <li class="setup-step setup-step--list">
+                            <div class="setup-step__number"><span></span><span></span></div>
+                            <p class="setup-step__title">Sharpen your Field skills with courses and trainings</p>
+                        </li>
+                        <li class="setup-step setup-step--list">
+                            <div class="setup-step__number"><span></span><span></span></div>
+                            <p class="setup-step__title"> Get access to Ag products and services at best prices</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-section home-section--features">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__column grid__column--12">
+                    <div class="home-section-header home-section-header--centered">
+                        <h2 class="home-section-header__primary-title">What Farmsby does for you</h2>
+                        <h3 class="home-section-header__secondary-title">We help you improve outputs from your agribusiness in months. 8 Big reasons why you should start using Farmsby today.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="home-section__feature-items grid">
+                <div class="grid__column grid__column--3">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--zero-setup"></div>
+                        </div>
+                        <h3 class="feature-item__title">No Setup Fee</h3>
+                        <p class="feature-item__description">Only pay for services, as you use them. No credit card required.</p>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--3">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--easy-integration"></div>
+                        </div>
+                        <h3 class="feature-item__title">Stay Connected</h3>
+                        <p class="feature-item__description">Connect with industry experts, collaborate with other farmers.</p>
+                    </div>
+                </div>
 
-        <!-- Code within this block -->
-    </div>
+                <div class="grid__column grid__column--3 ">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--security"></div>
+                        </div>
+                        <h3 class="feature-item__title">100% Secure</h3>
+                        <p class="feature-item__description">All your details remain safe with us and your privacy is assured.</p>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--3 ">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--recurring"></div>
+                        </div>
+                        <h3 class="feature-item__title">Data</h3>
+                        <p class="feature-item__description">Get actionable insights with live data from your farm and the markets to maximize profit and yield.</p>
+                    </div>
+                </div>
 
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/config.js"></script>
-    <script src="./assets/js/app.js"></script>
-    <script src="./assets/libraries/bootstrap5/js/bootstrap.js"></script>
-    <script src="./assets/libraries/fontawesome/js/all.js"></script>
+                <div class="grid__column grid__column--3 global-u-clear">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--people"></div>
+                        </div>
+                        <h3 class="feature-item__title">Smart Farming</h3>
+                        <p class="feature-item__description">Manage your farm on the go, Get help setting Up and Managing your Farm</p>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--3">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--multicurrency"></div>
+                        </div>
+                        <h3 class="feature-item__title">Shop Fresh</h3>
+                        <p class="feature-item__description">Get fresh produce on demand</p>
+                    </div>
+                </div>
+
+                <div class="grid__column grid__column--3">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--next-day-payouts"></div>
+                        </div>
+                        <h3 class="feature-item__title">International Trade</h3>
+                        <p class="feature-item__description">Buy, sell and aggregate from one platform</p>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--3">
+                    <div class="feature-item">
+                        <div class="feature-item__icon">
+                            <div class="svg svg--reporting"></div>
+                        </div>
+                        <h3 class="feature-item__title">Export</h3>
+                        <p class="feature-item__description">For Everyone its so simple and easy, anybody can use our software.</p>
+                    </div>
+                </div>
+                <!-- <div class="grid__column grid__column--12">
+                    <div class="home-section-footer home-section-footer--features">
+                        <a href="product.html" class="button button--green">Explore our product</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- <section class="home-section home-section--customers home-section--dark">
+        <div class="container container--md">
+            <div class="grid customers-section ">
+                <div class="grid__column grid__column--5">
+                    <div class="home-section-header">
+                        <h2 class="home-section-header__primary-title">
+                            Paystack works for some of the best companies in Africa.
+                        </h2>
+                        <h3 class="home-section-header__secondary-title">
+                            It's easier to focus on building great products and services when payment works. For these companies, accepting money from their customers isn't their problem. It's our pleasure.
+                        </h3>
+                    </div>
+                </div>
+                <div class="customers-section__logos-wrapper grid__column grid__column--7">
+                    <div class="customers-section__logos"></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="global-signup">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__column grid__column--6 grid__column--centered">
+                    <h2 class="global-signup__primary-title">
+                        Want to start a farm?
+                    </h2>
+                    <h3 class="global-signup__secondary-title">
+                    Experts at Farmsby would be willing to help. Talk to our experts now by Scheduling a meeting or give us a quick call today.
+                    </h3>
+                    <ul class="global-signup__call-to-action">
+                        <li class="global-signup__button">
+                            <a class="button button--green" href="https://calendly.com/farmsby">Book a meeting</a>
+                        </li>
+                        <li class="global-signup__button">
+                            <a class="button button--default" href="tel:+2348065032176">Call us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php include_once './widgets/footer.php'; ?>
+    <noscript>
+        <style type="text/css">
+        .slide--three {
+            display: block;
+        }
+        </style>
+    </noscript>
+    <script src="js/vendor/animate.min.js"></script>
+    <script src="js/home-animation.js"></script>
+    <script>
+    var mobileMenuHidden = true;
+    var trigger = document.getElementById('mobile-nav-trigger');
+    var menu = document.getElementById('mobile-nav-menu');
+
+    trigger.addEventListener("click", function() {
+        if (mobileMenuHidden) {
+            trigger.classList.add("is-active");
+            menu.style.display = "block";
+        } else {
+            trigger.classList.remove("is-active");
+            menu.style.display = "none";
+        }
+        mobileMenuHidden = !mobileMenuHidden;
+    });
+    </script>
 </body>
 
 </html>

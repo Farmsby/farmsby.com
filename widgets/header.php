@@ -1,13 +1,14 @@
-<header class="header-padding">
-    <div class="logo">
-        <a href="./">
-            <img src="./assets/images/logo/logo-green.svg" alt="">
-        </a>
-    </div>
-    <ul class="nav">
-        <li><a href="./about">About</a></li>
-        <li><a href="./contact">Contact Us</a></li>
-        <li><a href="./faq">FAQ</a></li>
-        <li><a href="#" class="text-white pb-3 underline">Log In</a></li>
-    </ul>
-</header>
+<nav class="global-nav global-nav--transparent">
+    <div class="container">
+        <div class="global-nav__left">
+            <a class="global-nav__logo">
+                <img src="images/logo.svg" alt="Paystack">
+            </a>
+        </div>
+        <div class="global-nav__right">
+            <?php
+                include_once 'widgets/nav-w.php';
+                include_once 'widgets/nav-m.php';
+            ?>
+        </div>
+</nav>
