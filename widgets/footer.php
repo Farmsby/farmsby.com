@@ -7,7 +7,7 @@
                 </h4>
                 <p class="global-footer__address">Farmsby helps farmers and businesses into agriculture, plant, manage, buy, sell, save anywhere in the Africa.</p>
             </div>
-            <div class="grid__column grid__column--3 grid__column--6-s">
+            <div class="grid__column grid__column--3 grid__column--12-s">
                 <div class="global-footer__menu-container">
                     <h4 class="global-footer__menu-header">Products</h4>
                     <ul class="global-footer__menu">

@@ -4103,5 +4103,6 @@ button--large,
 }
 
 /* Extended Style */
+.pt-4 { padding-top:2rem !important; }
 .pb-2 { padding-bottom: 1rem !important; }
 .pb-4 { padding-bottom: 4rem !important; }

@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid__column grid__column--6">
+                <div class="grid__column grid__column--6 pt-4">
                     <h4 class="feature-section-header__label">Join our Network 🤘🏾</h4>
                     <h2 class="feature-section-header__primary-title">Join our virtual Co-Op</h2>
                     <p class="global-u-body-excerpt">We are building Africa’s largest functional digital ecosystem for Agriculture. It’s a network of farmers Aggregators, Processors, Exporters input providers and consumers.</p>
