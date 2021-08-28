@@ -33,7 +33,7 @@
                     <a href="#career">Careers</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
-                    <a href="#blog">Blog</a>
+                    <a href="https://blog.farmsby.com">Blog</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
                     <a href="#login"><strong>Log In</strong></a>

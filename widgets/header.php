@@ -1,7 +1,7 @@
 <nav class="global-nav global-nav--transparent">
     <div class="container">
         <div class="global-nav__left">
-            <a class="global-nav__logo">
+            <a class="global-nav__logo" href="./">
                 <img src="images/logo.svg" alt="Paystack">
             </a>
         </div>

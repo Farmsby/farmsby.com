@@ -71,7 +71,7 @@
                             <img src="./images/mockups/freshmobile.png" alt="Farmsby Fresh" class="grid__column--12">
                         </div>
                         <div class="global-u-text-center">
-                            <a href="#" class="feature-section-header__label">Click to visit farmsbyfresh.com 🚀</a>
+                            <a href="https://www.farmsbyfresh.com" target="_blank" class="feature-section-header__label">Click to visit farmsbyfresh.com 🚀</a>
                         </div>
                     </div>
                 </div>

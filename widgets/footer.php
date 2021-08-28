@@ -21,7 +21,7 @@
             <div class="grid__column grid__column--3 grid__column--6-s">
                 <h4 class="global-footer__menu-header">Resources</h4>
                 <ul class="global-footer__menu">
-                    <li><a href="">Blog</a></li>
+                    <li><a href="https://blog.farmsby.com">Blog</a></li>
                     <li><a href="">Slack</a></li>
                     <li><a href="">Community</a></li>
                     <li><a href="">Privacy &amp; Terms</a></li>
