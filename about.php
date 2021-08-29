@@ -12,26 +12,6 @@
 <body>
     <?php include_once './widgets/header.php'; ?>
     <section class="hero-section hero-section--company">
-        <!-- <div class="hero-video">
-            <div class="hero-video__annotation">
-                <div class="hero-video__annotation__left">
-                    <h5>Farmsby HQ</h5>
-                    <h6>🇳🇬</h6>
-                </div>
-                <div class="hero-video__annotation__right">
-                    <div id="hero-video__spinner" class="spinner" style="display: none;"><span></span></div>
-                </div>
-            </div>
-            <div class="hero-video__image-backup"></div>
-            <div class="hero-video__file-wrap">
-                <video class="hero-video__file" autoplay id="hero-video__file" muted>
-                    <source src="video/HQ.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="hero-video__logo fade-in">
-                <img src="images/logo_icon.svg">
-            </div>
-        </div> -->
         <div class="hero-section__content">
             <div class="global-u-text-center">
                 <h2 class="text-white font-16">🇳🇬 Akure, Ondo State</h2>
@@ -179,22 +159,4 @@
     </section>
     <?php include_once 'widgets/footer.php'; ?>
 </body>
-<script>
-var heroVideo = document.getElementById("hero-video__file");
-
-heroVideo.oncanplay = function() {
-    document.getElementById("hero-video__spinner").style.display = "";
-}
-
-heroVideo.onplay = function() {
-    var oldSpinner = document.getElementById("hero-video__spinner");
-    var newSpinner = document.getElementById("hero-video__spinner").cloneNode(true);
-    oldSpinner.parentNode.replaceChild(newSpinner, oldSpinner);
-}
-
-heroVideo.addEventListener("ended", function() {
-    this.play();
-}, false);
-</script>
-
 </html>
