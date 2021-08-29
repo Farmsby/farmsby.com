@@ -122,22 +122,6 @@
     </noscript>
     <script src="js/vendor/animate.min.js"></script>
     <script src="js/home-animation.js"></script>
-    <script>
-    var mobileMenuHidden = true;
-    var trigger = document.getElementById('mobile-nav-trigger');
-    var menu = document.getElementById('mobile-nav-menu');
-
-    trigger.addEventListener("click", function() {
-        if (mobileMenuHidden) {
-            trigger.classList.add("is-active");
-            menu.style.display = "block";
-        } else {
-            trigger.classList.remove("is-active");
-            menu.style.display = "none";
-        }
-        mobileMenuHidden = !mobileMenuHidden;
-    });
-    </script>
 </body>
 
 </html>
