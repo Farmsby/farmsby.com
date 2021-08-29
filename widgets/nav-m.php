@@ -9,7 +9,7 @@
             <div class="grid__column grid__column--7-s">
                 <li class="global-mobile-nav-menu__label">PRODUCT</li>
                 <li class="global-mobile-nav-menu__item">
-                    <a href="#fresh">Fresh</a>
+                    <a href="https://www.farmsbyfresh.com">Fresh</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
                     <a href="#trade">Trade</a>
@@ -28,9 +28,6 @@
                 <li class="global-mobile-nav-menu__label">BUSINESS</li>
                 <li class="global-mobile-nav-menu__item">
                     <a href="./about">About</a>
-                </li>
-                <li class="global-mobile-nav-menu__item">
-                    <a href="#career">Careers</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
                     <a href="https://blog.farmsby.com">Blog</a>

@@ -5,7 +5,7 @@
         </a>
         <ul class="global-dropdown-menu">
             <li class="global-dropdown-menu__item">
-                <a href="#fresh">Fresh</a>
+                <a href="https://www.farmsbyfresh.com">Fresh</a>
             </li>
             <li class="global-dropdown-menu__item">
                 <a href="#trade">Trade</a>
@@ -41,7 +41,7 @@
             </li>
         </ul>
     </li>
-    <li class="global-nav__item"><a href="https://developers.paystack.co" target="_blank">Docs</a></li>
+    <li class="global-nav__item"><a href="#" target="_blank">FAQ</a></li>
     <li class="global-nav__item global-nav__item--has-dropdown">
         <a href="#company">
             Company
@@ -52,9 +52,6 @@
             </li>
             <li class="global-dropdown-menu__item">
                 <a href="#brand">Brand</a>
-            </li>
-            <li class="global-dropdown-menu__item">
-                <a href="#careers">Careers</a>
             </li>
             <li class="global-dropdown-menu__item">
                 <a href="https://blog.farmsby.com/">Blog</a>

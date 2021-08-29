@@ -11,7 +11,7 @@
                 <div class="global-footer__menu-container">
                     <h4 class="global-footer__menu-header">Products</h4>
                     <ul class="global-footer__menu">
-                        <li><a href="">Fresh</a></li>
+                        <li><a href="https://www.farmsbyfresh.com">Fresh</a></li>
                         <li><a href="">Green</a></li>
                         <li><a href="">Trade</a></li>
                         <li><a href="">Wallet</a></li>
