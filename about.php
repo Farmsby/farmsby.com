@@ -80,6 +80,13 @@
                 </div>
                 <div class="grid__column grid__column--20 grid__column--6-s">
                     <div class="team-member">
+                        <div class="team-member__image" style="background-image: url(images/company/team/vivian.jpg)"></div>
+                        <div class="team-member__name">Vivian Chikaodi</div>
+                        <div class="team-member__role">Customer Success</div>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--20 grid__column--6-s">
+                    <div class="team-member">
                         <div class="team-member__image" style="background-image: url(images/company/team/imoh.jpg)"></div>
                         <div class="team-member__name">ImohdeAndre Anselem</div>
                         <div class="team-member__role">Social Media</div>
@@ -103,7 +110,7 @@
                     <div class="team-member">
                         <div class="team-member__image" style="background-image: url(images/company/team/abednego.jpg)"></div>
                         <div class="team-member__name">Abednego Edet</div>
-                        <div class="team-member__role">Engineer</div>
+                        <div class="team-member__role">Frontend Developer</div>
                     </div>
                 </div>
                 <div class="grid__column grid__column--20 grid__column--6-s">
@@ -117,7 +124,14 @@
                     <div class="team-member">
                         <div class="team-member__image" style="background-image: url(images/company/team/elizabeth.jpg)"></div>
                         <div class="team-member__name">Onungwe Elizabeth</div>
-                        <div class="team-member__role">Head of Accounting</div>
+                        <div class="team-member__role">Finance officer</div>
+                    </div>
+                </div>
+                <div class="grid__column grid__column--20 grid__column--6-s">
+                    <div class="team-member">
+                        <div class="team-member__image" style="background-image: url(images/company/team/precious.jpg)"></div>
+                        <div class="team-member__name">Precious Johnson</div>
+                        <div class="team-member__role">Graphics</div>
                     </div>
                 </div>
             </div>

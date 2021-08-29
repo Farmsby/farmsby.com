@@ -10,113 +10,7 @@
 </head>
 
 <body>
-    <nav class="global-nav global-nav--transparent">
-        <div class="container">
-            <div class="global-nav__left">
-                <a class="global-nav__logo"><img alt="Paystack" src="images/logo.svg"></a>
-            </div>
-            <div class="global-nav__right">
-                <ul class="global-nav__menu">
-                    <li class="global-nav__item global-nav__item--has-dropdown">
-                        <a href="product.html">Product</a>
-                        <ul class="global-dropdown-menu">
-                            <li class="global-dropdown-menu__item">
-                                <a href="product_payments.html">Payments</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="product_subscriptions.html">Subscriptions</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="product_dashboard.html">Dashboard</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="product_developers.html">Developers</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="product_fraud.html">Fraud</a>
-                            </li>
-                            <li class="global-dropdown-menu__divider"></li>
-                            <li class="global-dropdown-menu__item global-dropdown-menu__item--muted">
-                                <a href="product.html">Home</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="global-nav__item">
-                        <a href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="global-nav__item">
-                        <a href="https://developers.paystack.co" target="_blank">Docs</a>
-                    </li>
-                    <li class="global-nav__item global-nav__item--has-dropdown">
-                        <a href="#">Company</a>
-                        <ul class="global-dropdown-menu">
-                            <li class="global-dropdown-menu__item">
-                                <a href="company.html">About</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="brand.html">Brand</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="careers.html">Careers</a>
-                            </li>
-                            <li class="global-dropdown-menu__item">
-                                <a href="https://blog.paystack.com">Blog</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="global-nav__button">
-                        <a class="button button--default-white button--rounded" href="#">Log In</a>
-                    </li>
-                </ul>
-                <div class="global-mobile-nav">
-                    <div class="global-mobile-nav__trigger" id="mobile-nav-trigger">
-                        <span></span> <span></span> <span></span>
-                    </div>
-                    <div class="global-mobile-nav-menu" id="mobile-nav-menu" style="margin-left: 2em">
-                        <div class="grid grid--with-gutters">
-                            <div class="grid__column grid__column--6 grid__column--6-s">
-                                <ul>
-                                    <li class="global-mobile-nav-menu__label">PRODUCT</li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_payments.html">Payments</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_subscriptions.html">Subscriptions</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_dashboard.html">Dashboard</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_developers.html">Developers</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_subscriptions.html">Docs</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="grid__column grid__column--6 grid__column--6-s">
-                                <ul>
-                                    <li class="global-mobile-nav-menu__label">BUSINESS</li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_payments.html">Pricing</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_payments.html">About</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_subscriptions.html">Careers</a>
-                                    </li>
-                                    <li class="global-mobile-nav-menu__item">
-                                        <a href="product_subscriptions.html">Blog</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <?php include_once './widgets/header.php'; ?>
     <section class="feature-header" id="terms-header">
         <div class="container">
             <h1 class="feature-header__primary-title">Privacy & Terms</h1>
@@ -128,16 +22,13 @@
                 <div class="grid__column">
                     <ul class="terms-nav-menu">
                         <li class="terms-nav-menu__item">
-                            <a href="#privacy">Privacy Policy</a>
-                        </li>
-                        <li class="terms-nav-menu__item">
                             <a href="#terms-of-use">Terms of Use</a>
                         </li>
                         <li class="terms-nav-menu__item">
-                            <a href="#terms-of-service">Terms of Service</a>
+                            <a href="#privacy">Privacy Policy</a>
                         </li>
                         <li class="terms-nav-menu__item">
-                            <a href="#acceptable-use">Acceptable Use Policy</a>
+                            <a href="#investment-service">Investment Service</a>
                         </li>
                         <li class="terms-nav-menu__item">
                             <a href="#contact">Contact Information</a>
@@ -145,73 +36,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="terms-section" id="privacy">
-        <div class="container">
-            <div class="grid grid--with-gutters">
-                <div class="grid__column grid__column--3">
-                    <div class="terms-section-header">
-                        <h2 class="terms-section-header__heavy-title main-title">Privacy Policy</h2>
-                    </div>
-                </div>
-                <div class="grid__column grid__column--9">
-                    <div class="terms-section__copy">
-                        <p>This Privacy Policy describes your privacy rights regarding Paystack’s (“we”, “us” or “our”) collection, use, storage, sharing and protection of your personal information. It applies to our website and all related sites, applications, services and tools regardless of how you access or use them. This Privacy Policy will help you understand how we use your information and what we do with it.</p>
-                        <p>We respect the privacy of our online visitors and registered users (“Users”) as such we will take reasonable steps to protect your information.</p>
-                        <div class="terms-section__separator"></div>
-                        <h3 class="terms-section__subtitle">1. About Us</h3>
-                        <p>Paystack is an online payment platform that makes it easy for merchants to accept credit and debit card payments online from customers.</p>
-                        <h3 class="terms-section__subtitle">2. Updates, Modifications & Amendments</h3>
-                        <p>We may need to update, modify or amend our privacy policy as our technology evolves. We reserve the right to make changes to this privacy policy at any time by giving notice to Users on this page.</p>
-                        <p>We advise that you check this page often, referring to the date of the last modification on the page If a User objects to any of the changes to the Policy, the User must cease using this Site, or terminate account in the event an account has been created.</p>
-                        <h3 class="terms-section__subtitle">3. Age Restriction</h3>
-                        <p>Our website and services are not directed to children under 18. We do not knowingly collect information from children under 18. If as a parent or guardian, you become aware that your child or ward child has provided us with any information without your consent, please contact us through details on this Privacy Policy.</p>
-                        <h3 class="terms-section__subtitle">4. The Information we Collect</h3>
-                        <h3 class="terms-section__subtitle">4.1 Personal Information</h3>
-                        <p>To gain full access to our website and services, you must register for a Paystack account. When you register for an account, we collect Personal Information which you voluntarily provide to us.</p>
-                        <p>Personal Information refers to the personal information you submit, when you sign up or any information that can be used to identify or contact you, (e.g. email address, password, name, telephone no and business name). It may also include anonymous information that is linked you specifically, (e.g., IP Address).&nbsp;</p>
-                        <p>&nbsp;We use your Personal Information to:</p>
-                        <ol>
-                            <li>provide you with the required services.</li>
-                            <li>respond to your questions or requests</li>
-                            <li>improve Paystack’s operations</li>
-                            <li>address inappropriate use of our website</li>
-                            <li>prevent, detect and manage risk against fraud and illegal activities&nbsp;</li>
-                            <li>target advertisements, newsletter and service updates&nbsp;</li>
-                            <li>verify the information that you provide with third parties</li>
-                            <li>update our database, improve content and website layout</li>
-                            <li>resolve disputes that may arise</li>
-                        </ol>
-                        <p>We may retrieve additional Personal Information about you from third parties and other identification/verification services such as your financial Institution, payment processor and verification services. With your consent, we may also collect additional Personal Information in other ways including emails, surveys, and other forms of communication. Once you begin using our services through your Paystack account we will keep records of your transactions and collect information of your other activities related to our services. We will not share or disclose your Personal Information with a third party without your consent.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">4.2 Information that we collect from website visitors</h3>
-                        <p>We do not collect your Personal Information when you visit the website. However, so we can monitor and improve our website and services we may collect non-personally-identifiable information. We will not share or disclose this information with third parties except as a necessary part of providing our website and services. We may use the information to target advertisements to you. &nbsp;</p>
-                        <h3 class="terms-section__subtitle">4.3 Information that we collect from test users</h3>
-                        <p>When you test our services using the “Demo” part of our website, we collect both non-personally identifiable information and personally identifiable information. Information we collect include your IP address, information about your computer, and other standard web log information to monitor the test transactions. We also collect your email address and credit card information you provide to conduct the test transactions. We will not share and disclose your credit card information. <strong>&nbsp;</strong></p>
-                        <h3 class="terms-section__subtitle">4.4 Information that we collect from checkout users</h3>
-                        <p>When you checkout with Paystack on a merchant’s website, we collect and store your payment card information, your email address, your mobile phone number, and billing and shipping address.</p>
-                        <p>We may share your contact information with merchants as part of your purchase details for record purposes. We will not share this information with other third parties except as a necessary part of providing our website and services. We do not share your card information with merchants. Please review your merchant’s privacy policy to understand the privacy policies guiding the merchant you transact with.</p>
-                        <h3 class="terms-section__subtitle">5. Cookies</h3>
-                        <p>We use cookies to identify you as a User and make your user experience easier, customise our services, content and advertising; help you ensure that your account security is not compromised, mitigate risk and prevent fraud; and to promote trust and safety on our website. Cookies allow our servers to remember your account log-in information when you visit our website, IP addresses, date and time of visits, monitor web traffic and prevent fraudulent activities. If your browser or browser add-on permits, you have the choice to disable cookies on our website, however this may limit your ability to use our website.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">6. How we protect your Information</h3>
-                        <p>Paystack is committed to managing your Personal Information in line with global industry best practices. We protect your Personal Information using physical, technical, and administrative security measures to reduce the risks of loss, misuse, unauthorized access, disclosure and alteration, we also use industry-standard Secure Socket Layer (SSL) encryption technology to safeguard your Personal Information. Other security safeguards include but are not limited to data encryption, firewalls, and physical access controls to our building and files and only granting access to Personal Information to only employees who require it to fulfil their job responsibilities.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">7. How we share the Personal Information you provide</h3>
-                        <p>To enable us render our services to you on our website, we may share your information with trusted third parties, such third parties include financial institutions, payment processors verification services, as well as any third parties that you have directly authorized to receive your Personal Information. Your Personal Information may be stored in locations outside the direct control of Paystack, for instance, on servers or databases co-located with hosting providers.</p>
-                        <p>We may disclose your Personal Information compliance with applicable law or a legal obligation to which we are bound.&nbsp;</p>
-                        <p>Please note that merchants, sellers, and Users you buy from or contract with have their own privacy policies, and although Paystack’s Merchant Terms of Use does not allow the other transacting party to use this information for anything other than as authorised by you, Paystack is not responsible for their actions, including their information protection practices.</p>
-                        <p>The use of your information by such third party will be subject to their applicable privacy policy, which you should carefully review.</p>
-                        <h3 class="terms-section__subtitle">8. The Data that we Retain</h3>
-                        <p>We will retain your information for as long as your account is active or as needed to provide you with our services, comply with our legal and statutory obligations or verify your information with a financial institution.&nbsp;</p>
-                        <p>Paystack is statutory obligated to retain the data you provide us with in order to process transactions, ensure settlements, make refunds, identify fraud and in compliance with laws and regulatory guidelines applicable to us, our banking providers and credit card processors.</p>
-                        <p>Therefore, even after closing your Paystack account, we will retain certain data to comply with these obligations.&nbsp;</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="terms-section__divider"></div>
         </div>
     </section>
     <section class="terms-section" id="terms-of-use">
@@ -224,275 +48,155 @@
                 </div>
                 <div class="grid__column grid__column--9">
                     <div class="terms-section__copy">
-                        <p>By using this website (<a href="http://www.paystack.com">www.paystack.com</a>), any of our websites and/or services, you agree to these Terms of Use. The website Privacy Policy, Acceptable Use Policy and Merchant Terms of Service (where applicable) are incorporated by reference into these Terms of Use. &nbsp;
-                            <br>
-                        </p>
-                        <h3 class="terms-section__subtitle">About Us</h3>
-                        <p>Paystack (“we”, “us” or “our”) is an online payment gateway that makes it easy for merchants to accept credit and debit card payments online from users or customers.</p>
-                        <p>We are an independent contractor for all purposes, providing this website and our services on an independent service provider basis. We do not have control or assume the liability or legality for the products or services that are paid for with our service. We do not guarantee any user’s identity and cannot ensure that a buyer or seller will complete a transaction.</p>
+                        <p>Farmsby.com (“Site” or “Website”) is a service platform of and operated by Farmsby Ltd. (“our”, “us” or “we”)</p>
+                        <p>Except as may be expressly provided in this Agreement, this Site is intended for personal, non-commercial use. This Agreement describes the terms and conditions applicable to the services available through this Site. This Agreement describes your responsibilities and, among other things, limits the liability of Farmsby Ltd.</p>
+                        <p>BEFORE USING ANY OF THESE SERVICES, PLEASE READ ALL OF THIS AGREEMENT CAREFULLY. BY ACCESSING ANY AREAS OF THIS SITE, USERS (“USERS” OR “YOU”) AGREE TO BE LEGALLY BOUND WITHOUT LIMITATION, QUALIFICATION, OR CHANGE AND TO ABIDE BY THESE TERMS OF USE, WHICH WILL CONSTITUTE OUR AGREEMENT (“AGREEMENT”). If at any time you do not agree with any part of this Agreement, YOU MUST DISCONTINUE USE OF THIS SITE.</p>
+                        <p>Farmsby Ltd. reserves the right, in its sole discretion, to amend, modify, or alter this Agreement at any time by posting the amended terms on this Site. We recommend that you review these terms of use periodically. The amended terms shall be effective from and after the date that they are posted on the Site. This Agreement may not otherwise be amended except in writing signed by both parties.</p>
+                        <p>Farmsby Ltd. incorporates herein, by reference, its Privacy Policy.</p>
+                        <p>WITHOUT LIMITATION OF ANY OTHER PROVISIONS OF THIS AGREEMENT, YOU MAY NOT USE THIS SITE FOR ANY PURPOSE THAT IS UNLAWFUL OR PROHIBITED BY THIS AGREEMENT AND/OR ANY APPLICABLE ADDITIONAL TERMS. YOUR ACCESS TO THIS SITE MAY BE TERMINATED IMMEDIATELY IN FARMSBY LTD.’S SOLE DISCRETION, WITH OR WITHOUT NOTICE, IF YOU FAIL TO COMPLY WITH ANY PROVISION OF THIS AGREEMENT AND/OR ADDITIONAL TERMS, OR FOR ANY OTHER REASON, OR NO REASON.</p>
+                        <div class="terms-section__separator"></div>
+                        <h3>GENERAL TERMS OF USE</h3>
+                        <h3 class="terms-section__subtitle">1. The Website</h3>
+                        <p>These Terms of Use apply to transactions made on the website. Investments or transactions carried out through the website are offered by Farmsby Ltd. and this Terms of Use governs such transactions. The Terms of Use on the website are applicable to any investment or transaction made on the website and to use of the site generally.</p>
+                        <h3 class="terms-section__subtitle">2. Copyright Notice</h3>
+                        <p>You, the User, acknowledge that all content included on this Site, including any information, data, software, photographs, graphs, video, typefaces, graphics, music, sounds, images, illustrations, maps, designs, icons, written and other material (collectively, “Content”) and the arrangement and compilation of the Content are except where expressly stated otherwise, the intellectual property of Farmsby Ltd. Reproduction or storage of information or works retrieved from this Site, in all forms, media and technologies now existing or hereafter developed, is subject to the Intellectual Property Law of Nigeria, or other applicable laws.</p>
+                        <h3 class="terms-section__subtitle">3. Acceptable Use/License</h3>
+                        <p>Farmsby Ltd. grants you a limited, personal, nontransferable, non-sublicensable, revocable license to access and use this Site only as expressly permitted in this Agreement. Except for this limited license, we do not grant you any other rights or license with respect to this Site; any rights or license not expressly granted herein are reserved. The content and information on this Site (including, without limitation, farming packages, price and availability of Farmsby Ltd. services), as well as the infrastructure used to provide such content and information, is the property of Farmsby Ltd. Accordingly, as a condition of using this Site, except as provided in Third party Investments, you agree not to use this Site or its contents or information for any commercial or non-personal purpose (direct or indirect) or for any purpose that is unlawful or prohibited by this Agreement. While you may make limited copies of your investment statement (and related documents) as proof of services purchased through this Site, you agree not to modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell or re-sell any information, software, products, or services obtained from this Site. In addition, whether or not you have a commercial purpose, you agree not to:</p>
                         <ol>
-                            <li>###b/b###</li>
+                            <li>access, monitor or copy any content or information of this Site using any robot, spider, scraper or other automated means or any manual process for any purpose without express written permission of Farmsby Ltd.;</li>
+                            <li>violate the restrictions in any robot exclusion headers on this Site or bypass or circumvent other measures employed to prevent or limit access to this Site;</li>
+                            <li>take any action that imposes, or may impose, in the discretion of Farmsby Ltd., an unreasonable or disproportionately large load on the Website infrastructure; or</li>
+                            <li>deep-link to any portion of this Site (including, without limitation, the purchase path for any farming packages or services) for any purpose without express written permission of Farmsby Ltd.</li>
+                            <li>deliver any unlawful (according to local, state, federal, or international law or regulation) postings to or through the this Site, or any postings which advocate illegal activity.</li>
+                            <li>deliver, or provide links to, any postings containing material that could be considered harmful, obscene, pornographic, indecent, lewd, violent, abusive, profane, insulting, threatening, tortuous, harassing, hateful or otherwise objectionable.</li>
+                            <li>deliver or provide links to, any postings containing material that harasses, victimizes, degrades, or intimidates an individual or group of individuals on the basis of religion, race, ethnicity, sexual orientation, gender, age, or disability.</li>
+                            <li>deliver or provide links to, any postings containing defamatory, false or libelous material.</li>
+                            <li>deliver any posting that infringes or violates any intellectual property or other right of any entity or person, including, without limitation, copyrights, patents, trademarks, laws governing trade secrets, rights to privacy, or publicity.</li>
+                            <li>deliver any posting to that you do not have a right to make available under law or contractual or fiduciary relationships.</li>
+                            <li>impersonate another person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity, or adopt a false identity if the purpose of doing so is to mislead, deceive, or defraud another.</li>
+                            <li>manipulate identifiers, including by forging headers, in order to disguise the origin of any posting that you deliver.</li>
+                            <li>use this Site in any manner which could damage, disable, overburden, or impair or otherwise interfere with the use of this Site or other users’ computer equipment, or cause damage, disruption or limit the functioning of any software, hardware, or telecommunications equipment.</li>
+                            <li>attempt to gain unauthorized access to this Site, other accounts, computer system, or networks connected to this Site, through hacking, password mining, or any other means.</li>
+                            <li>obtain or attempt to obtain any materials or information through any means not intentionally made available through this Site, including harvesting or otherwise collecting information about others such as email addresses.</li>
+                            <li>by any means possible, spam other Users. You may only use this Site to make legitimate investments on Farmsby Ltd.’s farming packages, or to purchase or make requests to purchase the products or services offered by Farmsby Ltd. (each, a "Request") and shall not use this Site to make any speculative, false or fraudulent Requests. You represent that you are of sufficient legal age to create binding legal obligations for any liability you may incur as a result of your use of this Site. You agree to provide correct and true information in connection with your use of this Site and you agree to promptly update your user information (if applicable) in order to keep it current, complete and accurate. It is a violation of law to place a Request in a false name. Please be aware that even if you do not give us your real name, your web browser transmits a unique Internet address to us that can be used by law enforcement officials to identify you. Fraudulent users will be prosecuted to the fullest extent of the law.</li>
                         </ol>
-                        <p>This Terms of Use is an agreement between you and Paystack. It details Paystack’s obligations to you. It also highlights certain risks on using the services and you must consider such risks carefully as you will be bound by the provision of this Agreement through your use of this website or any of our services.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Privacy Policy</h3>
-                        <p>Paystack is committed to managing your Personal Information in line with global industry best practices. You can read our Privacy Policy to understand how we use your information and the steps we take to protect your information.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Age Restriction</h3>
-                        <p>Our website and services are not directed to children under 18. We do not knowingly transact or provide any services to children under 18.</p>
-                        <h3 class="terms-section__subtitle">Disputes & Reversal</h3>
-                        <p>If you believe that an unauthorized or otherwise problematic transaction has taken place, you agree to notify us immediately, to enable us take action to help prevent financial loss.</p>
-                        <p>All claims against us related to payments should be made within 45 (forty-five) days after the date of such payment. It will be taken that you waive all claims against us, to the fullest extent of the law after the said period of time.</p>
-                        <p>If you enter into a transaction with a third party and have a dispute over the goods or services you purchased, we have no liability for such goods or services. Our only involvement with regard to such transaction is as a payment gateway.</p>
-                        <p>We may intervene in disputes between users and merchants concerning payments but have no obligation to do so.</p>
-                        <p>Your transaction ID and/or transaction details will be required to resolve all disputes</p>
-                        <h3 class="terms-section__subtitle">Acceptable Use Policy</h3>
-                        <p>You are independently responsible for complying with all applicable laws related to your use of our website and services. However, by accessing or using Paystack, you agree to comply with the terms and conditions of our Acceptable Use Policy which you can read on our Acceptable Use Policy page.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Disclaimers</h3>
-                        <p>WE TRY TO KEEP PAYSTACK AVAILABLE AT ALL TIMES, BUG-FREE AND SAFE, HOWEVER, YOU USE IT AT YOUR OWN RISK.</p>
-                        <p>OUR WEBSITE AND SERVICES ARE PROVIDED “AS IS” WITHOUT ANY EXPRESS, IMPLIED AND/OR STATUTORY WARRANTIES (INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED OR STATUTORY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, TITLE, AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS). WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, <strong></strong>PAYSTACK&nbsp;MAKES NO WARRANTY THAT OUR WEBSITE AND SERVICES WILL MEET YOUR REQUIREMENTS OR THAT OUR&nbsp;WEBSITE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR FREE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU THROUGH OUR&nbsp;WEBSITE OR FROM&nbsp;PAYSTACK, ITS PARENTS, SUBSIDIARIES, OR OTHER AFFILIATED COMPANIES, OR ITS OR THEIR SUPPLIERS (OR THE RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS OF ANY SUCH ENTITIES) (COLLECTIVELY, "PAYSTACK&nbsp;PARTIES") SHALL CREATE ANY WARRANTY.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Limitation of Liability</h3>
-                        <p>IN NO EVENT WILL ANY OF THE&nbsp; <strong></strong>PAYSTACK&nbsp;PARTIES BE LIABLE FOR (A) ANY INDIRECT, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES OR (B) ANY DAMAGES WHATSOEVER IN EXCESS OF THE AMOUNT OF THE TRANSACTION OR TWENTY THOUSAND UNITED STATES DOLLARS (US$20,000.00) DOLLARS, WHICHEVER IS LESSER (INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM LOSS OF REVENUES, LOST PROFITS, LOSS OF GOODWILL, LOSS OF USE, BUSINESS INTERRUPTION, OR OTHER INTANGIBLE LOSSES), ARISING OUT OF OR IN CONNECTION WITH PAYSTACK’S WEBSITE OR SERVICES (INCLUDING, WITHOUT LIMITATION, USE, INABILITY TO USE, OR THE RESULTS OF USE OF PAYSTACK’S WEBSITES OR SERVICES), WHETHER SUCH DAMAGES ARE BASED ON WARRANTY, CONTRACT, TORT, STATUTE, OR ANY OTHER LEGAL THEORY.</p>
-                        <h3 class="terms-section__subtitle">Exclusions</h3>
-                        <p>Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for certain damages. Accordingly, some of the above disclaimers and limitations of liability may not apply to you. To the extent that any&nbsp;Paystack Party may not, as a matter of applicable law, disclaim any implied warranty or limit its liabilities, the scope and duration of such warranty and the extent of the&nbsp;Paystack’s&nbsp;Party's liability shall be the minimum permitted under such applicable law.</p>
-                        <h3 class="terms-section__subtitle">Updates, Modifications & Amendments</h3>
-                        <p>We may need to update, modify or amend our Terms of Use as our technology evolves. We reserve the right to make changes to this Terms of Use at any time by giving notice to users on this page.&nbsp;</p>
-                        <p>We advise that you check this page often, referring to the date of the last modification on the page If a user objects to any of the changes to the Terms of Use, the User must cease using our website and/or services immediately.</p>
-                        <h3 class="terms-section__subtitle">Applicable Law&nbsp;</h3>
-                        <p>These Terms of Use shall be interpreted and governed by the laws currently in force in the Federal Republic of Nigeria.</p>
-                        <h3 class="terms-section__subtitle">Legal Disputes</h3>
-                        <p>We shall make an effort to settle all disputes amicably. Any dispute arising out of this Terms of Use, which cannot be settled, by mutual agreement/negotiation within 1 (one) month shall be referred to arbitration by a single arbitrator at the Lagos Multi-Door Courthouse (“LMDC”) and governed by the Arbitration and Conciliation Act, Cap A10, Laws of the Federal Republic of Nigeria. The arbitrator shall be appointed by both of us (we and you), where both of us are unable to agree on the choice of an arbitrator, the choice of arbitration shall be referred to the LMDC.&nbsp; The findings of the arbitrator and subsequent award shall be binding on both of us. Each of us shall bear our respective costs in connection with the Arbitration. Venue for the arbitration shall be Lagos, Nigeria.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Severability</h3>
-                        <p>If any portion of these Terms of Use is held by any court or tribunal to be invalid or unenforceable, either in whole or in part, then that part shall be severed from these Terms of Use and shall not affect the validity or enforceability of any other part in this Terms of Use. &nbsp;</p>
+                        <p>Farmsby Ltd. reserves the right to cancel any request or any other transaction that it reasonably believes or is informed by its payment gateway to have been fraudulently made, including without limitation, by unauthorized use of a credit or debit card.</p>
+                        <h3 class="terms-section__subtitle">4. Privacy Notice</h3>
+                        <p>You confirm that you have read our Privacy Policy, the terms of which are incorporated herein, and agree that the terms of such policy are reasonable and satisfactory to you. You consent to the use of your personal information by Farmsby Ltd. in accordance with the terms of and for the purposes set forth in the Privacy Policy. To the extent permitted by law, Farmsby Ltd. makes no representation or warranty with regard to the sufficiency of the security measures used for data handling and storage. Farmsby Ltd. will not be responsible for any actual or consequential damages that result from a lapse in compliance with the Privacy Policy because of a security breach or technical malfunction.</p>
+                        <h3 class="terms-section__subtitle">5. Disclaimer of Warranties</h3>
+                        <p>FARMSBY LTD. MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, AS TO THE OPERATION OF THIS WEBSITE OR THE INFORMATION, CONTENT OR MATERIALS INCLUDED ON THIS WEBSITE. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, FARMSBY LTD. DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING (WHERE APPLICABLE), BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY OR SATISFACTORY WORKMANLIKE EFFORT, INFORMATIONAL CONTENT, TITLE, OR NON-INFRINGEMENT OF THE RIGHTS OF THIRD PARTIES.</p>
+                        <p>FARMSBY LTD. DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS THAT THIS SITE WILL OPERATE ERROR-FREE OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, OR THAT THIS SITE AND/OR ITS SERVERS WILL BE FREE OF VIRUSES AND/OR OTHER HARMFUL COMPONENTS. FARMSBY LTD. DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING SUITABILITY, AVAILABILITY, ACCURACY, RELIABILITY, COMPLETENESS, OR TIMELINESS OF ANY MATERIAL OF ANY KIND CONTAINED WITHIN THIS SITE FOR ANY PURPOSE, INCLUDING SOFTWARE, FARMING PACKAGES, PRODUCTS, SERVICES, INFORMATION, TEXT AND RELATED GRAPHICS CONTENT.</p>
+                        <p>FARMSBY LTD. IS NOT RESPONSIBLE FOR ANY FAILURES CAUSED BY SERVER ERRORS, MISDIRECTED OR REDIRECTED TRANSMISSIONS, FAILED INTERNET CONNECTIONS, OR, ANY COMPUTER VIRUS OR OTHER TECHNICAL DEFECT, WHETHER HUMAN OR TECHNICAL IN NATURE.</p>
+                        <p>WITHOUT LIMITING THE FOREGOING, NO WARRANTY OR GUARANTEE IS MADE (I) REGARDING THE ACCEPTANCE OF ANY REQUEST, (II) THAT A USER WILL RECEIVE THE LOWEST AVAILABLE PRICE FOR FARMING PACKAGES AND/OR SERVICES AVAILABLE THROUGH THIS SITE, (III) REGARDING THE AVAILABILITY OF PRODUCTS AND/OR SERVICES THROUGH THIS SITE OR, (IV) REGARDING THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THIS SITE.</p>
+                        <h3 class="terms-section__subtitle">6. Minors</h3>
+                        <p>Persons under the age of 18 are not eligible to use any services on our Site.</p>
+                        <h3 class="terms-section__subtitle">7. General Limitation of Liability</h3>
+                        <p>TO THE EXTENT PERMITTED BY LAW, IN NO EVENT SHALL FARMSBY LTD., INCLUDING ITS RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, REPRESENTATIVES, AGENTS OR OTHERS INVOLVED IN CREATING, SPONSORING, PROMOTING, OR OTHERWISE MAKING AVAILABLE THE SITE AND ITS CONTENTS (COLLECTIVELY THE “COVERED PARTIES”), BE LIABLE TO ANY PERSON OR ENTITY WHATSOEVER FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, COMPENSATORY, CONSEQUENTIAL, OR PUNITIVE DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO: (I) LOSS OF GOODWILL, PROFITS, BUSINESS INTERRUPTION, DATA OR OTHER INTANGIBLE LOSSES; (II) YOUR INABILITY TO USE, UNAUTHORIZED USE OF, PERFORMANCE OR NON-PERFORMANCE OF THE SITE; (III) UNAUTHORIZED ACCESS TO OR TAMPERING WITH YOUR PERSONAL INFORMATION OR TRANSMISSIONS; (IV) THE PROVISION OR FAILURE TO PROVIDE ANY SERVICE; (V) ERRORS OR INACCURACIES CONTAINED ON THE SITE OR ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES, AND RELATED GRAPHICS OBTAINED THROUGH THE SITE; (VI) ANY TRANSACTIONS ENTERED INTO THROUGH THIS SITE; (VII) ANY PROPERTY DAMAGE INCLUDING DAMAGE TO YOUR COMPUTER OR COMPUTER SYSTEM CAUSED BY VIRUSES OR OTHER HARMFUL COMPONENTS, DURING OR ON ACCOUNT OF ACCESS TO OR USE OF THIS SITE OR ANY SITE TO WHICH IT PROVIDES HYPERLINKS; OR (VIII) DAMAGES OTHERWISE ARISING OUT OF THE USE OF THE SITE, ANY DELAY OR INABILITY TO USE THE SITE, OR ANY INFORMATION, PRODUCTS, OR SERVICES OBTAINED THROUGH THE SITE, (IX) DELAY IN RECEIVING RETURNS ON INVESTMENTS.</p>
+                        <p>THE LIMITATIONS OF LIABILITY SHALL APPLY REGARDLESS OF THE FORM OF ACTION, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF A COVERED PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES.</p>
+                        <p>No responsibility is accepted for any additional expense, omissions, delays, other incidents occasioned by the acts or policies of any governmental authority.</p>
+                        <p>If, notwithstanding the above, a Covered Party is found liable for any loss or damage relating to the use of this Site, User agrees the liability of any such party shall in no event exceed the total amount of User’s investment or service charge to the User assessed by Farmsby Ltd. for making a Request. And in this regard, the total amount of a User’s investment shall not include the interest to be paid on the investment.</p>
+                        <h3 class="terms-section__subtitle">8. Indemnification</h3>
+                        <p>You agree to defend and indemnify Farmsby Ltd. and its officers, directors, employees and agents from and against any claims, causes of action, demands, recoveries, losses, damages, fines, penalties or other costs or expenses of any kind or nature including but not limited to reasonable legal and accounting fees, brought </p>
+                        <ol>
+                            <li>by you or on behalf of you in excess of the liability described above, within the limits permitted by applicable law; or </li>
+                            <li>by third parties as a result of:
+                                <ol>
+                                    <li>your breach of this Agreement</li>
+                                    <li>your violation of any law or the rights of a third party; or</li>
+                                    <li>your use of this Site in violation of the terms and conditions set forth herein.</li>
+                                </ol>
+                            </li>
+                        </ol>
+                        <h3 class="terms-section__subtitle">9. Third Parties</h3>
+                        <p>If you use this Site to submit Requests for or on behalf of a third-party, you are responsible for any error in the accuracy of information provided in connection with such use. In addition, you must inform the Third-party of all Terms of Use applicable to all farming packages, products or services acquired through this Site including all rules and restrictions applicable thereto. Each User using this Site for or on behalf of a Third-party agrees to indemnify and hold each Covered Party harmless from and against any and all liabilities, losses, damages, suits and claims (including the costs of defense), relating to the Third-party’s or the User’s failure to fulfill any of its obligations as described above. You are directly responsible for any Request you submit including for total charges and performance obligations.</p>
+                        <h3 class="terms-section__subtitle">10. User Comments, Feedback, and Other Submissions</h3>
+                        <p>All comments, feedback, suggestions and ideas disclosed, submitted or offered to a Covered Party in connection with your use of this Site (collectively, “Comments”), shall be and remain the exclusive property of Farmsby Ltd. and may be used by a Covered Party in any medium in accordance with our Privacy Policy and you agree to execute any documents that may be necessary for such an assignment of rights. By providing your Comments to a Covered Party, you shall be indicating your consent to the Covered Party’s use of your Comments. For example, your Comments could be used on this Site and in radio, television, and print advertisements. Your first name, first initial of your last name, and state may be used with any Comments you submit. The information and opinions expressed in Comments on this Site are not necessarily those of Farmsby Ltd. and we make no representations or warranties regarding that information or those opinions. Farmsby Ltd. does not represent or guarantee the truthfulness, accuracy, or reliability of any Comments or determine whether the Comments violate the rights of others. You acknowledge that any reliance on material posted by other users will be at your own risk. No Covered Party is under any obligation to maintain your Comments (and the use of your first name and first initial of your last name with any comments) in confidence, to pay to you any compensation for any Comments submitted, or to respond to any of your Comments. You agree you will be solely responsible for the content of any Comments you make.</p>
+                        <h3 class="terms-section__subtitle">11. Links to Other Web Sites and Services</h3>
+                        <p>The Website will not as a matter of practice, contain links to other web sites or services but to the extent that this Site contains links to outside services and resources, any concerns regarding such services or resources should be directed to the particular outside service or resource provider. Farmsby Ltd. does not monitor or control the linked sites and makes no representations regarding, and is not liable or responsible for the accuracy, completeness, timeliness, reliability, or availability of any of the content uploaded, displayed, or distributed, or products or services available at these sites. If you choose to access any third-party site, you do so at your own risk. The presence of a link to a third-party site does not constitute or imply Farmsby Ltd’s endorsement, sponsorship, or recommendation of the third-party, or of the content, products or services contained on, or available through, any such third-party site.</p>
+                        <p>You further acknowledge and agree that Farmsby Ltd. shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+                        <h3 class="terms-section__subtitle">12. Modification/Termination of Usage</h3>
+                        <p>Farmsby Ltd. reserves the right, in its sole discretion, to modify, suspend, or terminate this Site and/or any portion thereof, including any farming package, service or product available through the Site, and/or your profile, password, or use of the Site, or any portion thereof, at any time for any reason with or without notice to you. In the event of termination, you will still be bound by your obligations under this Agreement and any Additional Terms, including the warranties made by you, and by the disclaimers and limitations of liability. Additionally, Farmsby Ltd. shall not be liable to you or any third-party for any termination of your access to this Site.</p>
+                        <p>However, if prior to such termination you have legally made an investment on any farming packages, your returns on such investment shall be paid as and when due to you as prescribed in this Agreement or if prior to such termination you have legally purchased some service or product you will receive the benefit of such purchase.</p>
+
+
+                        <h3 class="terms-section__subtitle">13. Notification</h3>
+                        <p>To the extent that we need to contact you, you agree that we may do so via any electronic means, including but not limited to communications posted on this Site, text messages or electronic mail subject to the terms contained in the Privacy Policy.</p>
+                        <h3 class="terms-section__subtitle">14. International Use</h3>
+                        <p>Accessing materials on this Site by certain persons in certain countries may not be lawful, and Farmsby Ltd. makes no representation that materials on this Site are appropriate or available for use in locations outside of Nigeria.</p>    
+                        <h3 class="terms-section__subtitle">14. Hyperlinks</h3>
+                        <p>Unless otherwise expressly permitted, websites may not hyperlink to any page beyond the homepage of this Site or frame this Site or any web page or material herein, nor may any entity hyperlink any aspect of this Site in an email for commercial purposes without the express written permission of Farmsby Ltd.</p>
+                        <h3 class="terms-section__subtitle">15. Miscellaneous</h3>
+                        <p>The captions in this Agreement are only for convenience, and do not, in any way, limit or otherwise define the terms and provisions of this Agreement. This Agreement, and the related parts of this Agreement relating to each service represent the entire agreement between you and each Covered Party regarding your use of this Site and supersede any prior statements, representations, or prior versions of these Terms of Use relating to the use of the Site that were displayed on this Site before. We reserve the right to modify, revise or update this Agreement from time to time by updating this posting. Your continued use of this Site will be subject to the terms of this Agreement in effect at the time of your use. Certain provisions of this Agreement may be superseded by expressly designated legal notices or terms located elsewhere on this Site, which will be adequately brought to your attention. In the event that any provision of this Agreement is determined to be unenforceable or invalid, such provision shall nonetheless be enforced to the fullest extent permitted by applicable law, and such determination shall not affect the validity and enforceability of any other remaining provisions. To the extent permitted by applicable law, the laws of Nigeria shall govern the performance of this Agreement and you consent and submit to the exclusive jurisdiction of the High Court of Rivers State, in all questions and controversies arising out of your use of this Site and this Agreement. To the extent permitted by applicable law, any claim or cause of action arising from or relating to your use of this Site and/or this Agreement must be brought within two (2) years from the date on which such claim or action arose or accrued.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="">
+    <section>
         <div class="container">
             <div class="terms-section__divider"></div>
         </div>
     </section>
-    <section class="terms-section" id="terms-of-service">
+    <section class="terms-section" id="investment-service">
         <div class="container">
             <div class="grid grid--with-gutters">
                 <div class="grid__column grid__column--3">
                     <div class="terms-section-header">
-                        <h2 class="terms-section-header__heavy-title main-title">Terms of Service</h2>
+                        <h2 class="terms-section-header__heavy-title main-title">Investment Service</h2>
                     </div>
                 </div>
                 <div class="grid__column grid__column--9">
                     <div class="terms-section__copy">
-                        <p>By signing up for an account on this website (<a href="http://www.paystack.com">www.paystack.com</a>), any of our websites and/or services, you are deemed a merchant and agree to these Merchant Terms of Service (the “Agreement”). &nbsp;
-                            <br>
-                        </p>
-                        <p>PLEASE READ THESE MERCHANT TERMS OF SERVICE CAREFULLY BEFORE SIGNING UP AS A MERCHANT. If you do not agree to any or all of these Terms of Service, DO NOT USE THIS SITE!</p>
-                        <h3 class="terms-section__subtitle">About Us&nbsp;</h3>
-                        <p>Paystack (“we”, “us” or “our”) is an online payment gateway that makes it easy for merchants to accept credit and debit card payments online from users or customers.</p>
-                        <p>We are an independent contractor for all purposes, providing this website and our services on an independent service provider basis. We do not endorse, have control or assume the liability or legality for the products or services that are paid for with our service. We do not guarantee any user’s identity and cannot ensure that a buyer or seller will complete a transaction. &nbsp;</p>
-                        <h3 class="terms-section__subtitle"><strong>Agreement</strong></h3>
-                        <p>These Merchant Terms of Service is an agreement between you and Paystack. It details Paystack’s obligations to you. It also highlights certain risks on using the services and you must consider such risks carefully as you will be bound by the provision of this Agreement through your use of this website or any of our services.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Registration</h3>
-                        <p>To use Paystack, you have to create a Paystack account by registering. To register, you will provide us with certain information such as your email, first name, last name, business name and phone number and we may seek to verify your information, (by ourselves or through third parties), after which we will approve your account unless deemed risky. You give us permission to do all these.</p>
-                        <h3 class="terms-section__subtitle">Change of Information</h3>
-                        <p>In the event that you change any information provided to us at registration including your business name, address, financial institution, mode of payments or the products and services that you offer, or where a corporate restructuring occurs you agree to notify us within 14 days of such change.&nbsp; We may be unable to respond to you if you contact us from an address, telephone number or email account that is not registered with us</p>
-                        <h3 class="terms-section__subtitle">Representation and Warranties</h3>
-                        <p>You represent and warrant to Paystack that:&nbsp;</p>
+                        <h3 class="terms-section__subtitle">1. Investments</h3>
+                        <p>We welcome investments on our farming packages as comprehensively described on the site. If you make an investment on a farming package(s), you guarantee that you have the legal capacity to contract and enter into such a transaction. You also guarantee that the funds with which you make the transaction are not in contravention of the Money Laundering (Prohibition) Act, 2011 (as amended) or any anti-corruption laws in Nigeria or as may be applicable.</p>
+                        <p>NOTWITHSTANDING ANYTHING CONTAINED ELSEWHERE IN THIS AGREEMENT, SHOULD YOU BREACH THE TERMS IN THIS CLAUSE, FARMSBY LTD. SHALL HAVE THE RIGHT IN ITS SOLE DISCRETION TO TERMINATE YOUR ACCESS TO THIS SITE AND TO HOLD YOU IN BREACH OF CONTRACT WITHOUT ANY OBLIGATION TO REFUND YOUR INVESTMENT CAPITAL OR TO PAY ANY RETURNS ON YOUR INVESTMENT.</p>
+                        <p>WITHOUT LIMITATION, YOU HEREBY AGREE TO INDEMNIFY AND HOLD FARMSBY LTD. AND THE COVERED PARTIES FREE FROM LIABILITY IN RESPECT OF AND AGAINST ANY CLAIMS, CAUSES OF ACTION, DEMANDS, RECOVERIES, LOSSES, DAMAGES, FINES, PENALTIES OR OTHER COSTS OR EXPENSES OF ANY KIND EMANATING FROM YOUR BREACH OF THIS CLAUSE.</p>
+                        <h3 class="terms-section__subtitle">2. Deposits on Investments</h3>
+                        <p>You understand and agree that 40% of the investment capital for each investment you make is a deposit for that investment. YOU UNDERSTAND AND AGREE THAT THIS DEPOSIT IS NON REFUNDABLE.</p>
+                        
+                        <h3 class="terms-section__subtitle">3. Returns on Investments</h3>
+                        <p>Crowd Farming Package Farmsby Ltd. has full control over the funds and exercises full discretion in choice of farmland to channel User’s investment funds and in choice of crops to cultivate.</p>
+                        <p>User is entitled to 50% (fifty percent) interest on each investment capital for a farming package. The sum total of the investment capital for each individual investment and 50% interest on the investment capital make up the investment returns.</p>
+                        <p>An Investment shall become mature within 90 days from the date of making the investment and the maturity of an investment means the following:</p>
                         <ol>
-                            <li>you have full power and authority to enter into, execute, deliver and perform this Agreement;&nbsp;</li>
-                            <li>you are duly organised, authorised and in good standing under the laws of the Federal Republic of Nigeria or any state, region or country of your organisation and are duly authorised to do business in all other states, regions or countries in which your business operates.</li>
+                            <li>The User is entitled to withdraw the whole or part of his/her/its investment capital.</li>
+                            <li>Although the investment shall have become mature, the interest on the investment capital shall not at the expiration of the 90 days have fully ripened but shall fully ripen at the end of a 12 month period from the date of making the investment.</li>
+                            <li>At the end of the 90 day period, the available interest shall be 12% (twelve percent) of the expected 50% and the available interest shall steadily increase until the full 50% ripens at the end of the 12 month period from the date of making the investment.</li>
+                            <li>The User is entitled to withdraw the whole or part of the available interest when they become available.</li>
+                            <li>User may withdraw his/her/its capital and/ or interest by indicating his/her/its interest to do so as stipulated on the site.</li>
+                            <li>At the expiration of the twelve month period from the date of making the investment, no further interest shall be paid upon the investment capital and the User shall be entitled to withdraw the whole or part of any remaining funds or give express directions for the whole or part of such funds to be re-invested in a farming package of his/her/its choice.</li>
                         </ol>
-                        <h3 class="terms-section__subtitle">Age Restriction</h3>
-                        <p>Our website and services are not directed to children under 18. We do not knowingly transact or provide any services to children under 18.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Account Security</h3>
-                        <p>You agree not to allow anyone else to have or use your password details and to comply with all reasonable instructions we may issue regarding account access and security. In the event you share your password details, Paystack will not be liable to you for losses or damages. You will also take all reasonable steps to protect the security of the personal electronic device through which you access Paystack’s services (including, without limitation, using PIN and/or password protected personally configured device functionality to access Paystack’s services and not sharing your device with other people).</p>
-                        <h3 class="terms-section__subtitle">Data Compliance</h3>
-                        <p>You agree to comply with all applicable data privacy and security requirements under the Payment Card Industry Data Security Standard (“Association PCI DSS Requirements”) with regards to your use, access, and storage of certain credit card non-public personal information. Additionally, you agree to comply with your obligations under any applicable law or regulation as may be in effect or as may be enacted, adopted or determined regarding the confidentiality, use, and disclosure of cardholder information. Information on the PCI DSS can be found on the&nbsp;PCI Council’s website. It is your responsibility to comply with these standards</p>
-                        <p>We acknowledge that you own all your customers’ data. You hereby grant Paystack a perpetual, irrevocable, sub-licensable, assignable, worldwide, royalty-free license to use, reproduce, electronically distribute, and display your customers’ data for the following purposes:&nbsp;</p>
+                        <p>Joint Venture Package Farmsby Ltd. has full control over the funds and exercises full discretion in choice of crops to cultivate with User’s investment funds. However, user provides farmland.</p>
+                        <p>User is entitled to 75% (seventy-five percent) interest on each investment capital for a farming package. The sum total of the investment capital for each individual investment and 75% interest on the investment capital make up the investment returns.</p>
+                        <p>An Investment shall become mature within 120 days from the date of making the investment and the maturity of an investment means the following:</p>
                         <ol>
-                            <li>providing and improving our services;</li>
-                            <li>internal usage, including but not limited to, data analytics and metrics so long as individual customer data has been anonymized and aggregated with other customer data;&nbsp;</li>
-                            <li>complying with applicable legal requirements and assisting law enforcement agencies by responding to requests for the disclosure of information in accordance with local laws; and&nbsp;</li>
-                            <li>any other purpose for which consent has been provided by your customer.</li>
+                            <li>The User is entitled to withdraw the whole or part of his/her/its investment capital.</li>
+                            <li>Although the investment shall have become mature, the interest on the investment capital shall not at the expiration of the 120 days have fully ripened but shall fully ripen at the end of a 12 month period from the date of making the investment.</li>
+                            <li>At the end of the 120 day period, the available interest shall be 25% (twenty-five percent) of the expected 75% and the available interest shall steadily increase until the full 75% ripens at the end of the 12 month period from the date of making the investment.</li>
+                            <li>The User is entitled to withdraw the whole or part of the available interest when they become available.</li>
+                            <li>User may withdraw his/her/its capital and/ or interest by indicating his/her/its interest to do so as stipulated on the site.</li>
+                            <li>At the expiration of the twelve month period from the date of making the investment, no further interest shall be paid upon the investment capital and the User shall be entitled to withdraw the whole or part of any remaining funds or give express directions for the whole or part of such funds to be re-invested in a farming package of his/her/its choice.</li>
                         </ol>
-                        <h3 class="terms-section__subtitle">Software License</h3>
-                        <p>We hereby grant you a revocable, non-exclusive, non-transferable license to use Paystack’s APIs, developer’s toolkit, and other software applications (the “Software”) in accordance with the documentation accompanying the Software. This license grant includes all updates, upgrades, new versions and replacement software for your use in connection with the Paystack’s services. If you do not comply with the documentation and any other requirements provided by Paystack, then you will be liable for all resulting damages suffered by you, Paystack and third parties. Unless otherwise provided by applicable law, you agree not to alter, reproduce, adapt, distribute, display, publish, reverse engineer, translate, disassemble, decompile or otherwise attempt to create any source code that is derived from the Software. Upon expiration or termination of this Agreement, you will immediately cease all use of any Software.</p>
-                        <h3 class="terms-section__subtitle">Trademark License</h3>
-                        <p>We hereby grant you a revocable, non-exclusive, non-transferable license to use Paystack’s trademarks used to identify our services (the “Trademarks”) solely in conjunction with the use of our services. You agree that you will not at any time during or after this Agreement assert or claim any interest in or do anything that may adversely affect the validity of any Trademark or any other trademark, trade name or product designation belonging to or licensed to Paystack (including, without limitation registering or attempting to register any Trademark or any such other trademark, trade name or product designation). Upon expiration or termination of this Agreement, you will immediately cease all display, advertising and use of all of the Trademarks.</p>
-                        <h3 class="terms-section__subtitle">Intellectual Property</h3>
-                        <p>We do not grant any right or license to any Paystack intellectual property rights by implication, estoppel or otherwise other than those expressly mentioned in this Agreement.</p>
-                        <p>Each party shall retain all intellectual property rights including all ownership rights, title, and interest in and to its own products and services, subject only to the rights and licenses specifically granted herein.</p>
-                        <h3 class="terms-section__subtitle">Publicity</h3>
-                        <p>You hereby grant Paystack permissions to use your name and logo in our marketing materials including, but not limited to use on our website, in customer listings, in interviews and in press releases. Such Publicity does not imply an endorsement for your products and services.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Confidential Information</h3>
-                        <p>The parties acknowledge that in the performance of their duties under this Agreement, either party may communicate to the other (or its designees) certain confidential and proprietary information, including without limitation information concerning each party’s services, know how, technology, techniques, or business or marketing plans (collectively, the “Confidential Information”) all of which are confidential and proprietary to, and trade secrets of, the disclosing party. Confidential Information does not include information that: (i) is public knowledge at the time of disclosure by the disclosing party; (ii) becomes public knowledge or known to the receiving party after disclosure by the disclosing party other than by breach of the receiving party’s obligations under this section or by breach of a third party’s confidentiality obligations; (iii) was known by the receiving party prior to disclosure by the disclosing party other than by breach of a third party’s confidentiality obligations; or (iv) is independently developed by the receiving party.</p>
-                        <p>As a condition to the receipt of the Confidential Information from the disclosing party, the receiving party shall: (i) not disclose in any manner, directly or indirectly, to any third party any portion of the disclosing party’s Confidential Information; (ii) not use the disclosing party’s Confidential Information in any fashion except to perform its duties under this Agreement or with the disclosing party’s express prior written consent; (iii) disclose the disclosing party’s Confidential Information, in whole or in part, only to employees and agents who need to have access thereto for the receiving party’s internal business purposes; (iv) take all necessary steps to ensure that its employees and agents are informed of and comply with the confidentiality restrictions contained in this Agreement; and (v) take all necessary precautions to protect the confidentiality of the Confidential Information received hereunder and exercise at least the same degree of care in safeguarding the Confidential Information as it would with its own confidential information, and in no event shall apply less than a reasonable standard of care to prevent disclosure.</p>
-                        <h3 class="terms-section__subtitle">Know Your Customer</h3>
-                        <p>You agree that, you are solely responsible for verifying the identities of your customers, ensuring that they are authorised to carry out the transactions on your platform, and determining their eligibility to purchase your products and services.&nbsp;</p>
-                        <p>You are also required to maintain information and proof of service or product delivery to your customer. Where a dispute occurs needing resolution, you may be required to provide Paystack with these.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Card Network Rules</h3>
-                        <p>Each card network has its own rules, regulations and guidelines. You are required to comply with all applicable Network Rules that are applicable to merchants. You can review portions of the Network Rules at Mastercard, Visa, Verve and other payment cards.The Card Networks reserve the right to amend the Network Rules.</p>
-                        <h3 class="terms-section__subtitle">Customer Payments</h3>
-                        <p>You may only process payments when authorised to do so by your customer. We will only process transactions that have been authorised by the applicable Card Network or card issuer.</p>
-                        <p>We do not guarantee or assume any liability for transactions authorised and completed that are later reversed or charged back (see Chargebacks below). You are solely responsible for all reversed or charged back transactions, regardless of the reason for, or timing of, the reversal or chargeback. Paystack may add or remove one or more payment types or networks at any time. If we do so we will use reasonable efforts to give you prior notice of the removal.</p>
-                        <h3 class="terms-section__subtitle">Our Fees & Pricing Schedule</h3>
-                        <p>You agree to pay us for the services we render as a payment gateway for your goods and services. Our Fees will be calculated as demonstrated on the Pricing page on the website and can be calculated on the same page using the “little calculator” we provided. The Fees on our Pricing page is integral to and forms part of this Agreement.&nbsp;</p>
-                        <p>We reserve the right to revise our Fees. In the event that we revise our fees we will notify you within 5 days of such change.&nbsp;</p>
-                        <h3 class="terms-section__subtitle"><strong>Payouts</strong></h3>
-                        <p>Subject to the terms of this Agreement, Paystack will send to your designated bank or card settlement account (“Bank Account”) all amounts settled and due to you from your transactions, minus our fees as stated in the Fee Schedule, any Reversals, Invalidated Payments, Chargebacks, Refunds or other amounts that you owe to Paystack under this Agreement (“Payout”). If the Payout is not sufficient to cover the amounts due, you agree that we may debit your Bank Account for the applicable amounts, and/or set-off the applicable amounts against future Payouts. Upon our request, you agree to provide us with all necessary bank account and related information and grant us permission to debit amounts due from your Bank Account.</p>
-                        <p>After transfer of funds is initiated to your Bank Account, we will update information on your Paystack Dashboard to reflect settlement. Information regarding your transactions that are processed and settled using Paystack (“Transaction History”) will be available to you when you login to your Paystack Dashboard. While we will provide Transaction History in your Paystack Dashboard, you are solely responsible for compiling and retaining permanent records of all transactions and other data associated with your Paystack account as may be required for your business. Paystack is not responsible for maintaining Transaction History or other records in a manner consistent with your record retention obligations.</p>
-                        <h3 class="terms-section__subtitle">Payout Schedule</h3>
-                        <p>Your Payout Schedule, which is the time it takes us to initiate a transfer to your Bank Account settled funds from card transactions processed through us is on your Paystack Dashboard. We reserve the right to change your Payout Schedule, suspend payouts to your Bank Account or initiate a Reversal should we deem it necessary due to pending disputes, excessive or anticipated excessive Chargebacks or Refunds, or other suspicious activity associated with your use of Paystack, or if required by law or court order.</p>
-                        <h3 class="terms-section__subtitle">How we handle your Funds</h3>
-                        <p>You authorise and instruct Paystack to hold, receive, and disburse funds on your behalf when such funds from your card transactions settle from the Card Networks. By accepting this Agreement, you further authorise Paystack on how your card transaction settlement funds should be disbursed to you as Payouts and the timing of such Payouts.&nbsp;</p>
-                        <p>You agree that you are not entitled to any interest or other compensation associated with the settlement funds held by Paystack pending settlement and Payout to your Bank Account.&nbsp;</p>
-                        <p>Settlement funds will be held in a deposit account at Paystack pending Payouts to you in accordance with the terms of this contract. We may periodically make available to you information about pending settlements yet to be received from the Card Networks.&nbsp;</p>
-                        <p>Your authorisations will remain valid and be of full effect until your Paystack Account is closed or terminated.</p>
-                        <h3 class="terms-section__subtitle">Security and Fraud Controls</h3>
-                        <p>Paystack is responsible for protecting the security of Payment Data in our possession and will maintain commercially reasonable administrative, technical, and physical procedures to protect all the personal information regarding you and your customers that is stored in our servers from unauthorised access and accidental loss or modification. However, we cannot guarantee that unauthorised third parties will never be able to defeat those measures or use such personal information for improper purposes.&nbsp;</p>
-                        <p>You agree to use other procedures and controls provided by us and other measures that are appropriate for your business to reduce the risk of fraud.&nbsp;</p>
-                        <p>In the event that you suspect any fraudulent activity by a customer, you agree to notify Paystack immediately and quit the delivery of the service. In addition, where we suspect that there have been frequent fraudulent transactions on your account, we reserve the right to cancel our service to you and/or your account</p>
-                        <h3 class="terms-section__subtitle">Notification of Errors</h3>
-                        <p>You agree to notify us immediately any error is detected while reconciling transactions that have occurred using Paystack.&nbsp; We will investigate and rectify the errors where verified. In the event that we notice any errors, we will also investigate and rectify such errors.&nbsp;</p>
-                        <p>Where we owe you money as a result of such errors, we will refund the amounts owed to you by a bank transfer to your Bank Account.&nbsp;</p>
-                        <p>If a transaction is erroneously processed through your platform, report to us immediately. We will investigate any such reports and attempt to rectify the errors by crediting or debiting your Bank Account as appropriate.&nbsp;</p>
-                        <p>Failure to notify us within 45 (forty-five) days of the occurrence of an error will be deemed a waiver of your rights to amounts that are owed to you due to an error.</p>
-                        <h3 class="terms-section__subtitle">Chargebacks</h3>
-                        <p>A Chargeback usually happens when a customer files directly with or disputes through his or her credit or debit card issuer a payment on their bill. It may result in the reversal of a transaction.&nbsp; You may be assessed Chargebacks for (i) customer disputes; (ii) unauthorised or improperly authorised transactions; (iii) transactions that do not comply with Card Network Rules or the terms of this Agreement or are allegedly unlawful or suspicious; or (iv) any reversals for any reason by the Card Network, our processor, or the acquiring or issuing banks. Where a Chargeback occurs, you are immediately liable for all claims, expenses, fines and liability we incur arising out of that Chargeback and agree that we may recover these amounts by debiting your Bank Account. Where these amounts are not recoverable through your Bank Account, you agree to pay all such amounts through any other means</p>
-                        <h3 class="terms-section__subtitle">Reserves</h3>
-                        <p>In our sole discretion, we may place a Reserve on a portion of your Payouts by holding for a certain period such portion where we believe there is a high level of risk associated with your business. If we take such steps, we will provide you with the terms of the Reserve which may include the percentage of your Payouts to be held back, period of time and any other such restrictions that Paystack may deem necessary. Where such terms are changed, we will notify you. You agree that you will remain liable for all obligations related to your transactions even after the release of any Reserve. In addition, we may require you to keep your Bank Account available for any open settlements, Chargebacks and other adjustments.</p>
-                        <p>To secure your performance of this Agreement, you grant Paystack a legal claim to the funds held in the Reserve as a lien or security interest for amounts payable by you.</p>
-                        <h3 class="terms-section__subtitle"><strong>Refunds</strong></h3>
-                        <p>You agree that you are solely responsible for accepting and processing returns of your products and services. We are under no obligation to process returns of your products and services, or to respond to your customers’ inquiries about returns of your products and services. You agree to submit all Refunds for returns of your products and services that were paid for through Paystack&nbsp; to your customers in accordance with this Agreement and relevant Card Network Rules.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Termination</h3>
-                        <p>You may terminate this Agreement by closing your Paystack Account.</p>
-                        <p>We may suspend your Paystack Account and your access to Paystack services and any funds, or terminate this Agreement, if;</p>
-                        <ol>
-                            <li>you do not comply with any of the provisions of this Agreement;</li>
-                            <li>we are required to do so by a Law;</li>
-                            <li>we are directed by a Card Network or issuing financial institution; or</li>
-                            <li>where a suspicious or fraudulent transaction occurs</li>
-                        </ol>
-                        <h3 class="terms-section__subtitle">Restricted Activities & Acceptable Use Policy</h3>
-                        <p>You are independently responsible for complying with all applicable laws related to your use of our website and services. However, by accessing or using Paystack, you agree to comply with the terms and conditions of our Acceptable Use Policy&nbsp; and are restricted from the activities specified in it which you can read on our Acceptable Use Policy page.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Privacy Policy</h3>
-                        <p>Paystack is committed to managing your Personal Information in line with global industry best practices. You can read our Privacy Policy to understand how we use your information and the steps we take to protect your information.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Disclaimers</h3>
-                        <p>WE TRY TO KEEP PAYSTACK AVAILABLE AT ALL TIMES, BUG-FREE AND SAFE, HOWEVER, YOU USE IT AT YOUR OWN RISK.</p>
-                        <p>OUR WEBSITE AND SERVICES ARE PROVIDED “AS IS” WITHOUT ANY EXPRESS, IMPLIED AND/OR STATUTORY WARRANTIES (INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED OR STATUTORY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, TITLE, AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS). WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, <strong></strong>PAYSTACK&nbsp;MAKES NO WARRANTY THAT OUR WEBSITE AND SERVICES WILL MEET YOUR REQUIREMENTS OR THAT OUR&nbsp;WEBSITE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR FREE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU THROUGH OUR&nbsp;WEBSITE OR FROM&nbsp;PAYSTACK, ITS PARENTS, SUBSIDIARIES, OR OTHER AFFILIATED COMPANIES, OR ITS OR THEIR SUPPLIERS (OR THE RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS OF ANY SUCH ENTITIES) (COLLECTIVELY, "PAYSTACK&nbsp;PARTIES") SHALL CREATE ANY WARRANTY.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Limitation of Liability</h3>
-                        <p>IN NO EVENT WILL ANY OF THE&nbsp; <strong></strong>PAYSTACK&nbsp;PARTIES BE LIABLE FOR (A) ANY INDIRECT, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES OR (B) ANY DAMAGES WHATSOEVER IN EXCESS OF THE AMOUNT OF THE TRANSACTION OR TWENTY THOUSAND UNITED STATES DOLLARS (US$20,000.00) DOLLARS, WHICHEVER IS LESSER (INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM LOSS OF REVENUES, LOST PROFITS, LOSS OF GOODWILL, LOSS OF USE, BUSINESS INTERRUPTION, OR OTHER INTANGIBLE LOSSES), ARISING OUT OF OR IN CONNECTION WITH PAYSTACK’S WEBSITE OR SERVICES (INCLUDING, WITHOUT LIMITATION, USE, INABILITY TO USE, OR THE RESULTS OF USE OF PAYSTACK’S WEBSITES OR SERVICES), WHETHER SUCH DAMAGES ARE BASED ON WARRANTY, CONTRACT, TORT, STATUTE, OR ANY OTHER LEGAL THEORY.</p>
-                        <h3 class="terms-section__subtitle">Exclusions</h3>
-                        <p>Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for certain damages. Accordingly, some of the above disclaimers and limitations of liability may not apply to you. To the extent that any&nbsp;Paystack Party may not, as a matter of applicable law, disclaim any implied warranty or limit its liabilities, the scope and duration of such warranty and the extent of the&nbsp;Paystack’s&nbsp;Party's liability shall be the minimum permitted under such applicable law.</p>
-                        <h3 class="terms-section__subtitle">Indemnity</h3>
-                        <p>You agree to defend, indemnify, and hold Paystack, its officers, directors, employees, agents,&nbsp; licensors, and suppliers, harmless from and against any claims, actions or demands, liabilities and settlements including without limitation, reasonable legal and accounting fees, resulting from, or alleged to result from, your violation of these Agreement.</p>
-                        <h3 class="terms-section__subtitle">Updates, Modifications & Amendments</h3>
-                        <p>We may need to update, modify or amend our Merchant Terms of Service as our technology evolves. We reserve the right to make changes to this Merchant Terms of Service at any time by giving notice to users on this page.&nbsp;</p>
-                        <p>We advise that you check this page often, referring to the date of the last modification on the page If you have any objection to any of the changes to this Merchant Terms of Service, you must cease using our website and/or services immediately.</p>
-                        <h3 class="terms-section__subtitle">Applicable Law&nbsp;</h3>
-                        <p>These Terms of Use shall be interpreted and governed by the laws currently in force in the Federal Republic of Nigeria.</p>
-                        <h3 class="terms-section__subtitle">Legal Disputes</h3>
-                        <p>We shall make an effort to settle all disputes amicably. Any dispute arising out of this Agreement which cannot be settled, by mutual agreement/negotiation within 1 (one) month shall be referred to arbitration by a single arbitrator at the Lagos Multi-Door Courthouse (“LMDC”) and governed by the Arbitration and Conciliation Act, Cap A10, Laws of the Federal Republic of Nigeria. The arbitrator shall be appointed by both of us (we and you), where both of us are unable to agree on the choice of an arbitrator, the choice of arbitration shall be referred to the LMDC.&nbsp; The findings of the arbitrator and subsequent award shall be binding on both of us. Each of us shall bear our respective costs in connection with the Arbitration. Venue for the arbitration shall be Lagos, Nigeria.&nbsp;</p>
-                        <h3 class="terms-section__subtitle">Severability</h3>
-                        <p>If any portion of these Terms of Use is held by any court or tribunal to be invalid or unenforceable, either in whole or in part, then that part shall be severed from these Terms of Use and shall not affect the validity or enforceability of any other part in this Terms of Use. &nbsp;</p>
-                        <h3 class="terms-section__subtitle">Miscellaneous</h3>
-                        <p>You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing. Assigning or sub-contracting any of your rights or obligations under these Terms of Use to any third party is prohibited.Wec reserve the right to transfer, assign or sub-contract the benefit of the whole or part of any rights or obligations under these Terms of Use to any third party.</p>
+                        <h3 class="terms-section__subtitle">4. Cancellation of Investments</h3>
+                        <p>You reserve the right to cancel your investment at any time before the maturity of the investment. In the event that you cancel the investment, Farmsby Ltd. will refund to you the refundable portion of your investment capital as promptly as possible. THE REFUNDABLE PORTION OF YOUR INVESTMENT CAPITAL IS YOUR INVESTMENT CAPITAL LESS THE DEPOSIT ON THE INVESTMENT.</p>
+                        <h3 class="terms-section__subtitle">5. Third Party Investment Scheme</h3>
+                        <p>Users may of their own free will choose to promote Farmsby.com and its farming packages to third parties. Consequently, Farmsby Ltd. grants interested Users a limited license to direct such third parties to the Website or to show such third parties information, data, software, photographs, graphs, video, typefaces, graphics, music, sounds, images, illustrations, maps, designs, icons, written and other material on the Site for the purpose of promoting the site and convincing such third parties to become Users and to invest in Farmsby Ltd.’s farming packages.</p>
+                        <p>This Limited License does not extend to or give Users the right to copy, share, transfer any content of the site, or to, duplicate, reproduce or howsoever, infringes the intellectual property of Farmsby Ltd. in respect of any content of the site. IN THE EVENT THAT A USER SHARES OR TRANSFERS ANY CONTENT OF THE SITE, OR INFRINGES FARMSBY LTD.’S INTELLECTUAL PROPERTY, THAT USER SHALL BE LIABLE FOR ANY CIVIL OR CRIMINAL BREACH OF THE RIGHTS OF FARMSBY LTD. EMANATING THEREOF AND IRRESPECTIVE OF WHETHER OR NOT SUCH BREACH OCCURS, FARMSBY LTD. SHALL HAVE THE RIGHT TO EQUITABLE RELIEF.</p>
+                        <p>Users may however, share the link to the homepage of the Site.</p>
+                        <p>The third party investments scheme does not create an agency relationship between You and Farmsby Ltd. and does not offer you protection as a covered party. The third party investment scheme relates only to Farmsby Ltd. farming packages. The third party investment scheme is different from the clause on making requests on behalf of third parties stipulated above. Third party for the purposes of the third party investment scheme means an individual or firm who or which is not a User prior to your promoting the Site to such individual or firm and who may subsequently decide to become a User.</p>
+                        <h3 class="terms-section__subtitle">6. Bonus on Third Party Investment Schemes</h3>
+                        <p>Where a User successfully promotes the Site to a third party who subsequently becomes a User (Second User) and invests in a farming package(s), the User who promoted the Site shall receive 10% of the investment capital on the first investment made by the Second User PROVIDED THAT THE SECOND USER SHALL HAVE INDICATED AS PROVIDED ON THE SITE THAT THE USER PROMOTED THE SITE AND FARMSBY LTD. FARMING PACKAGES TO SECOND USER AND PROVIDED THAT SECOND USER HAS THE LEGAL CAPACITY TO ENTER INTO THE TRANSACTION AND THE INVESTMENT(S) IS NOT IN CONTRAVENTION OF THE MONEY LAUNDERING (PROHIBITION) ACT, 2011 (AS AMENDED) OR ANY ANTI-CORRUPTION LAWS IN NIGERIA OR AS MAY BE APPLICABLE.</p>
+                        <p><strong>The 10% referred to above is 10% of the investment capital only and not of the Returns on investment and as stipulated above, the bonus is only applicable to the first investment made by the Second User. Subsequent Investments by Second User do not yield a bonus to the User.</strong></p>
+                        <h3 class="terms-section__subtitle">7. Additional Products and Services</h3>
+                        <p>Farmsby Ltd. may from time to time, in its sole discretion, offer products or services to Users at rates or charges to be specified in the offer.</p>
+                        <h3 class="terms-section__subtitle">8. Payment Policy</h3>
+                        <p>Farmsby Ltd. does not receive investment funds or other payments directly from Users. All payments are to be mad through our payment gateway, <a href="https://paystack.com.">https://paystack.com.</a> </p>
+                        <p>Farmsby Ltd. does not monitor or control <a href="https://paystack.com">https://paystack.com</a> and makes no representations regarding, and is not liable or responsible for the accuracy, completeness, timeliness, reliability, or availability of any of the content uploaded, displayed, or distributed, or products or services available at thereon. We recommend that you read the terms and conditions and privacy policy of <a href="https://paystack.com">https://paystack.com</a>.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div>
-        <div class="container">
-            <div class="terms-section__divider"></div>
-        </div>
-    </div>
-    <section class="terms-section" id="acceptable-use">
-        <div class="container">
-            <div class="grid grid--with-gutters">
-                <div class="grid__column grid__column--3">
-                    <div class="terms-section-header">
-                        <h2 class="terms-section-header__heavy-title main-title">Acceptable Use Policy</h2>
-                    </div>
-                </div>
-                <div class="grid__column grid__column--9">
-                    <div class="terms-section__copy">
-                        <p>By accessing or using Paystack, you agree to comply with the terms and conditions of this Acceptable Use Policy.&nbsp;
-                            <br>
-                        </p>
-                        <h3 class="terms-section__subtitle">1.&nbsp;Restricted Activities</h3>
-                        <p>You may not use Paystack in connection with any product, service, transaction or activity that:</p>
-                        <ul>
-                            <li>violates any law or government regulation, or promotes or facilitates such by third parties;</li>
-                            <li>violates any rule or regulation of Visa, MasterCard, Verve or any other electronic funds transfer network (each, a “Card Network”);</li>
-                            <li>is fraudulent, deceptive, unfair or predatory;</li>
-                            <li>causes or threatens reputational damage to us or any Card Network;</li>
-                            <li>involves any of the business categories listed in clause 2; or</li>
-                            <li>results in or creates a significant risk of chargebacks, penalties, damages or other harm or liability.</li>
-                        </ul>
-                        <h3 class="terms-section__subtitle">2.&nbsp;Certain Business Categories</h3>
-                        <p>You may not use Paystack in connection with any product, service, transaction or activity that:</p>
-                        <ul>
-                            <li>falls within the Prohibition List of the Nigerian Customs Administration of the Federal Republic of Nigeria</li>
-                            <li>relates to the sale and/or purchase of:
-                                <ol>
-                                    <li>banned narcotics, steroids, certain controlled substances or other products that present a risk a consumer's safety;</li>
-                                    <li>blood, bodily fluids or body parts;</li>
-                                    <li>burglary tools;</li>
-                                    <li>counterfeit items;</li>
-                                    <li>illegal drugs and drug paraphernalia;</li>
-                                    <li>fireworks, destructive devices and explosives;</li>
-                                    <li>identity documents, government documents, personal financial records or personal information (in any form, including mailing lists);</li>
-                                    <li>lottery tickets, sweepstakes entries or slot machines;</li>
-                                    <li>obscene material or child pornography;</li>
-                                    <li>offensive material or hate speech or items that promote hate, violence, racial intolerance, or the financial exploitation of a crime;</li>
-                                    <li>police badges or uniforms;</li>
-                                    <li>prescription drugs or devices;</li>
-                                    <li>chemicals;</li>
-                                    <li>recalled items;</li>
-                                    <li>prohibited services;</li>
-                                    <li>stocks or other securities;</li>
-                                    <li>stolen property;</li>
-                                    <li>items that infringe or violate any copyright, trademark, right of publicity or privacy or any other proprietary right under the laws of any jurisdiction;</li>
-                                    <li>certain sexually oriented materials or services;&nbsp;</li>
-                                    <li>certain firearms, firearm parts or accessories, ammunition, weapons or knives; or</li>
-                                    <li>any product or service that is illegal or marketed or sold in such a way as to create liability to Paystack.</li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>relate to transactions that:
-                                <ol>
-                                    <li>show the personal information of third parties in violation of applicable law;</li>
-                                    <li>support pyramid or ponzi schemes, matrix programs, other "get rich quick" schemes or certain multi-level marketing programs;</li>
-                                    <li>are associated with purchases of annuities or lottery contracts, lay-away systems, off-shore banking or transactions to finance or refinance debts funded by a credit card;</li>
-                                    <li>pertain to ammunitions and arms; and</li>
-                                    <li>involve gambling, gaming and/or any other activity with an entry fee and a prize, including, but not limited to casino games, sports betting, horse or greyhound racing, lottery tickets, other ventures that facilitate gambling, games of skill (whether or not it is legally defined as a lottery) and sweepstakes unless the operator has obtained prior approval from Paystack and the operator and customers are located exclusively in jurisdictions where such activities are permitted by law.&nbsp;</li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <h3 class="terms-section__subtitle">3.&nbsp;Actions by Paystack</h3>
-                        <p>If, in our sole discretion, we believe that you may have engaged in any violation of this Acceptable Use Policy, we may (with or without notice to you) take such actions as we deem appropriate to mitigate risk to Paystack and any impacted third parties and to ensure compliance with this Acceptable Use Policy. Such actions may include, without limitation:</p>
-                        <ul>
-                            <li>Blocking the settlement or completion of one or more payments;</li>
-                            <li>Suspending, restricting or terminating your access to and use of the Paystack’s Services;</li>
-                            <li>Terminating our business relationship with you, including termination without liability to Paystack of any payment service agreement between you and Paystack;</li>
-                            <li>Taking legal action against you;</li>
-                            <li>Contacting and disclosing information related to such violations to (i) persons who have sold/purchased goods or services from you, (ii) any banks or Card Networks involved with your business or transactions, (iii) law enforcement or regulatory agencies, and (iv) other third parties that may have been impacted by such violations; or</li>
-                            <li>Assessing against you any fees, penalties, assessments or expenses (including reasonable attorneys’ fees) that we may incur as a result of such violations, which you agree to pay promptly upon notice.</li>
-                        </ul>
-                        <h3 class="terms-section__subtitle">4.&nbsp;Updates, Modifications & Amendments</h3>
-                        <p>We may need to update, modify or amend our Acceptable Use Policy at any time. We reserve the right to make changes to this Acceptable Use Policy.&nbsp;</p>
-                        <p>We advise that you check this page often, referring to the date of the last modification on the page.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div>
-        <div class="container">
-            <div class="terms-section__divider"></div>
-        </div>
-    </div>
     <section class="terms-section" id="contact">
         <div class="container">
             <div class="grid grid--with-gutters">
@@ -506,76 +210,14 @@
                         <p>If you have any questions about our Terms & Policies, please contact us through any of the details provided below:
                             <br>
                         </p>
-                        <p>Email: <strong>hello@paystack.com</strong></p>
-                        <p>Telephone No: <strong>+234 908 566 2909</strong></p>
+                        <p>Email: <strong>corporate@farmsby.com</strong></p>
+                        <p>Telephone No: <strong>+234 806 5032 176</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="global-footer">
-        <div class="container">
-            <div class="global-footer__grid grid">
-                <div class="grid__column grid__column--3 grid__column--6-s">
-                    <div class="global-footer__menu-container">
-                        <h4 class="global-footer__menu-header">Solutions</h4>
-                        <ul class="global-footer__menu">
-                            <li>
-                                <a href="">Payments</a>
-                            </li>
-                            <li>
-                                <a href="">Subscriptions</a>
-                            </li>
-                            <li>
-                                <a href="">Business Tools</a>
-                            </li>
-                            <li>
-                                <a href="">Developer Tools</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="grid__column grid__column--3 grid__column--6-s">
-                    <h4 class="global-footer__menu-header">Resources</h4>
-                    <ul class="global-footer__menu">
-                        <li>
-                            <a href="">Demo</a>
-                        </li>
-                        <li>
-                            <a href="">Slack</a>
-                        </li>
-                        <li>
-                            <a href="">API Documentation</a>
-                        </li>
-                        <li>
-                            <a href="">Privacy & Terms</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__column grid__column--6">
-                    <div class="grid__column grid__column--6 grid__column--6-s">
-                        <h4 class="global-footer__menu-header">San Francisco</h4>
-                        <p class="global-footer__address">1281 Lawrence Station Road, Sunnyvale, California.</p>
-                    </div>
-                    <div class="grid__column grid__column--6 grid__column--6-s">
-                        <h4 class="global-footer__menu-header">Lagos</h4>
-                        <p class="global-footer__address">22A, Olatunbosun Str, Shonibare Estate, Ikeja. Lagos</p>
-                    </div>
-                    <div class="grid__column grid__column--6 grid__column--6-s">
-                        <a class="global-footer__contact" href="">hello@paystack.com</a>
-                    </div>
-                    <div class="grid__column grid__column--6 grid__column--6-s">
-                        <a class="global-footer__contact" href="">+234 908 566 2909</a>
-                    </div>
-                </div>
-                <div class="grid__column grid__column--12">
-                    <div class="global-footer__copyright">
-                        © 2016, Paystack Payments Limited
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once './widgets/footer.php'; ?>
 </body>
 <script src="js/vendor/waypoints.min.js"></script>
 <script>
