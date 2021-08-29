@@ -7,6 +7,37 @@
     <title>Farmsby</title>
     <meta name="description" content="Building the AgroEcosystem in Africa">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="application/ld+json">
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Corporation",
+        "brand": "Farmsby",
+        "description": "Farmsby - Building the Agriculture for Africa's future",
+        "name" : "Farmsby",
+        "url": "https://farmsby.com/",
+        "logo": "https://farmsby.com/images/logo-green.svg",
+        "founders": [
+          "Aquila Kalabor",
+          "Precious Tom",
+          "Boumote Digitemie"
+        ],
+        "foundingDate": "2019-04",
+        "foundingLocation": "Rivers",
+        "foundingCountry": "Nigeria",
+        "knowsAbout": "Farmsby helps farmers and businesses into agriculture, plant, manage, buy, sell, save anywhere in Africa.",
+        "legalName": "Farmsby Limited",
+        "numberOfEmployees": "50",
+        "ownershipFundingInfo": "https://blog.farmsby.com/",
+        "sameAs" : [
+          "https://web.facebook.com/FarmsbyHQ/",
+          "http://twitter.com/farmsbyhq",
+          "https://www.instagram.com/farmsbyhq/",
+          "https://www.youtube.com/channel/UCWSkEVZOj3c9QtTr5UVrPcQ",
+          "https://www.linkedin.com/company/farmsbyofficial"
+        ],
+        "slogan": "Building the Agriculture for Africa's future"
+      }
+    </script>
 </head>
 
 <body>
@@ -63,15 +94,15 @@
                             <h3 class="setup-step__title">Affordable variety</h3>
                             <p class="setup-step__message">Find hundreds of different food and grocery items on our menu at the best prizes you can find anywhere. And we give you a wide variety of sizes too.</p>
                         </div>
+                        <div class="hero-section__call-to-action">
+                            <a class="button button--large button--green" href="https://www.farmsbyfresh.com">Start Shopping Now 🚀</a>
+                        </div>
                     </div>
                 </div>
                 <div class="grid__column grid__column--6">
                     <div class="home-section__checkout-demo">
                         <div class="checkout--bounce">
                             <img src="./images/mockups/freshmobile.png" alt="Farmsby Fresh" class="grid__column--12">
-                        </div>
-                        <div class="global-u-text-center">
-                            <a href="https://www.farmsbyfresh.com" target="_blank" class="feature-section-header__label">Click to visit farmsbyfresh.com 🚀</a>
                         </div>
                     </div>
                 </div>

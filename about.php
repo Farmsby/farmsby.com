@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About</title>
-    <meta name="description" content="Accept payments online with Paystack">
+    <meta name="description" content="Farmsby is farm-to table digital ecosystem that reduces the risks of doing agribusiness in Africa by creating markets, tools and networks that enable you grow.">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 

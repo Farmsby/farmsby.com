@@ -57,7 +57,7 @@
                 <a href="https://blog.farmsby.com/">Blog</a>
             </li>
             <li class="global-dropdown-menu__item">
-                <a href="#contact">Contact</a>
+                <a href="./contact">Contact</a>
             </li>
         </ul>
     </li>

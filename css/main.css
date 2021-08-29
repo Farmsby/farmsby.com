@@ -1993,7 +1993,8 @@ button--large,
 }
 .checkout__form {
 	background:#fafafa;
-	height:250px;
+	height: auto;
+	min-height:250px;
 	padding:25px
 }
 .checkout__played {
@@ -2047,6 +2048,23 @@ button--large,
 }
 .checkout-input-group {
 	position:relative
+}
+.checkout-textarea-group__field {
+	background:#fff;
+	border:1px solid #e8e8e8;
+	border-radius:3px;
+	box-shadow:inset 0 1px 1px rgba(0,
+	0,
+	0,
+	0.075);
+	color:#acacac;
+	cursor:default;
+	height:90px;
+	margin-bottom:20px;
+	padding-top:10px;
+	position:relative;
+	text-indent:40px;
+	width:100%
 }
 .checkout-input-group__field {
 	background:#fff;
@@ -2566,7 +2584,7 @@ button--large,
 }
 .home-section--features {
 	background-color:#fafafa;
-	padding:120px 0 90px;
+	padding:120px 0 20px;
 	border-top:1px solid whitesmoke
 }
 @media screen and (max-width: 600px) {
