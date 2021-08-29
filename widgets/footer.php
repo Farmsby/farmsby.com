@@ -24,7 +24,7 @@
                     <li><a href="https://blog.farmsby.com">Blog</a></li>
                     <li><a href="">Slack</a></li>
                     <li><a href="">Community</a></li>
-                    <li><a href="">Privacy &amp; Terms</a></li>
+                    <li><a href="./terms">Privacy &amp; Terms</a></li>
                 </ul>
             </div>
             <div class="grid__column grid__column--3">
