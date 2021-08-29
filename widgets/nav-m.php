@@ -27,7 +27,7 @@
             <div class="grid__column grid__column--5-s">
                 <li class="global-mobile-nav-menu__label">BUSINESS</li>
                 <li class="global-mobile-nav-menu__item">
-                    <a href="#company">About</a>
+                    <a href="./about">About</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
                     <a href="#career">Careers</a>

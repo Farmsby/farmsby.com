@@ -48,7 +48,7 @@
         </a>
         <ul class="global-dropdown-menu">
             <li class="global-dropdown-menu__item">
-                <a href="#company">About</a>
+                <a href="./about">About</a>
             </li>
             <li class="global-dropdown-menu__item">
                 <a href="#brand">Brand</a>

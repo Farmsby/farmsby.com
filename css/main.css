@@ -1183,11 +1183,11 @@ button--large,
 	margin:0 5px
 }
 .global-signup--dark {
-	background:#011b33;
+	background:#0c372a;
 	color:white
 }
 .global-signup--dark .global-signup__primary-title {
-	color:#09a5db
+	color:#6FCF97
 }
 .global-signup--dark .global-signup__secondary-title {
 	color:white
@@ -2419,7 +2419,7 @@ button--large,
 	}
 }
 .hero-section {
-	background:#011b33;
+	background: linear-gradient(180deg, #368966 0%, #3DA871 100%);
 	height:700px;
 	position:relative;
 	overflow:hidden
@@ -3090,16 +3090,18 @@ button--large,
 	}
 }
 .hero-section--company {
-	height:800px
+	height:500px;
+	background-image: url(../images/company/company_banner.jpg);
+	background-size:cover;
 }
 @media screen and (max-width: 600px) {
 	.hero-section--company {
-		height:500px
+		height:400px
 	}
 }
 .hero-section--company .hero-section__content {
 	bottom:10%;
-	width:400px;
+	width:300px;
 	max-width:100%;
 	z-index:3
 }
@@ -3127,7 +3129,7 @@ button--large,
 	width:400px
 }
 .hero-video {
-	background:#011b33;
+	background:#3DA871;
 	height:75%;
 	left:50%;
 	position:absolute;
@@ -3154,31 +3156,13 @@ button--large,
 .hero-video:after {
 	top:0;
 	bottom:35%;
-	background:linear-gradient(90deg,
-	#011b33,
-	rgba(1,
-	27,
-	51,
-	0.5),
-	rgba(1,
-	27,
-	51,
-	0));
-	background:-webkit-linear-gradient(90deg,
-	#011b33,
-	rgba(1,
-	27,
-	51,
-	0.5),
-	rgba(1,
-	27,
-	51,
-	0))
+	background:linear-gradient(90deg,#3DA871,rgba(54, 137, 102, 0.5),rgba(54, 137, 102, 0));
+	background:-webkit-linear-gradient(90deg,#3DA871,rgba(54, 137, 102, 0.5),rgba(54, 137, 102, 0));
 }
 .hero-video:before {
 	top:64%;
 	bottom:0;
-	background:#011b33;
+	background:#3DA871;
 	z-index:2
 }
 .hero-video__logo {
@@ -3416,8 +3400,6 @@ button--large,
 .investors {
 	margin-top:15px;
 	text-align:center;
-	-webkit-filter:grayscale(100%);
-	filter:grayscale(100%)
 }
 .investors img {
 	max-width:100%;
@@ -4106,3 +4088,5 @@ button--large,
 .pt-4 { padding-top:2rem !important; }
 .pb-2 { padding-bottom: 1rem !important; }
 .pb-4 { padding-bottom: 4rem !important; }
+.font-16 { font-size:16px; }
+.text-white {color: #fff;}

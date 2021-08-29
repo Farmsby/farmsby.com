@@ -16,7 +16,7 @@
         <div class="hero-section__slider">
             <div class="slide global-u-text-center">
                 <h1 class="hero-section__primary-title">Building the Agriculture for Africa's future</h1>
-                <h2 class="hero-section__secondary-title">Farmsby helps farmers and businesses into agriculture, plant, manage, buy, sell, save anywhere in the Africa.</h2>
+                <h2 class="hero-section__secondary-title">Farmsby helps farmers and businesses into agriculture, plant, manage, buy, sell, save anywhere in Africa.</h2>
                 <div class="hero-section__call-to-action">
                     <a class="button button--large button--green" href="https://app.farmsby.com/join">Get Started for free</a>
                 </div>
@@ -36,7 +36,7 @@
                     <div class="home-section-header">
                         <h4 class="feature-section-header__label pb-2">Farmsby Fresh 🍅</h4>
                         <h2 class="home-section-header__primary-title">Fresh products at your fingertips</h2>
-                        <h3 class="home-section-header__secondary-title">Save the hassle of a trip to the market every week. Farmsby delivers organic and fresh organic produce to your door step in Port Harcourt and Lagos.</h3>
+                        <h3 class="home-section-header__secondary-title">Spare yourself the hassle of a trip to the market every week. Farmsby delivers fresh, organic agro produce to your doorstep in Port Harcourt and Lagos.</h3>
                     </div>
                     <div class="home-section__setup-steps">
                         <div class="setup-step">
@@ -44,7 +44,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Fresh farm Produce</h3>
-                            <p class="setup-step__message">We know that food its Power. So we get you the best quality at its freshest. From the cleanest Sources. Packed and ready for your favourite meal.</p>
+                            <p class="setup-step__message">We know our lives depend on food. So we get you the best quality at its freshest, and from the cleanest sources. And we pack it ready for pickup.</p>
                         </div>
                         <div class="setup-step">
                             <div class="setup-step__number">
@@ -52,7 +52,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Delivered on time</h3>
-                            <p class="setup-step__message">Rowdy markets, Heavy Bags, long hours in traffic. Get your food stuff delivered to your home or office at your preferred time.</p>
+                            <p class="setup-step__message">Rowdy markets, heavy hags, long hours in traffic? Cut all that out and get your foodstuff delivered to you at a time and place convenient for you.</p>
                         </div>
                         <div class="setup-step">
                             <div class="setup-step__number">
@@ -61,7 +61,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Affordable variety</h3>
-                            <p class="setup-step__message">Find 100s of different food items and groceries in our menu at the best prizes (and best sizes) you can find anywhere.</p>
+                            <p class="setup-step__message">Find hundreds of different food and grocery items on our menu at the best prizes you can find anywhere. And we give you a wide variety of sizes too.</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     <div class="home-section-header">
                         <h4 class="feature-section-header__label pb-2">Farmsby Green ☘️</h4>
                         <h2 class="home-section-header__primary-title">All of your farm in one place</h2>
-                        <h3 class="home-section-header__secondary-title">Farmsby Green is a Collaborative and decentralized farm management software, designed to enable farmers in emerging markets maximize profit by making decisions informed by data.</h3>
+                        <h3 class="home-section-header__secondary-title">Farmsby Green is a collaborative and decentralized farm management software designed to enable farmers in emerging markets maximize profit by making decisions informed by data.</h3>
                     </div>
                     <div class="home-section__setup-steps">
                         <div class="setup-step">
@@ -103,7 +103,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Monitor your Farm</h3>
-                            <p class="setup-step__message">We are leveraging the power of IoT to bring Precision Ag to the average farmer. Increase efficiency through, task/personnel management. Connect to drones, sensors to cameras to increase  and capture every bit of data about your farm from soil quality to plant health.</p>
+                            <p class="setup-step__message">We are leveraging the power of IoT to bring precision agriculture to the average farmer. Increase efficiency through task and personnel management. Capture every bit of data on your farm using drones, sensors, cameras and more to stay updated on soil and crop health as well as improve yield and minimise waste and disease.</p>
                         </div>
                         <div class="setup-step">
                             <div class="setup-step__number">
@@ -111,7 +111,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Increase Productivity</h3>
-                            <p class="setup-step__message">Improve output but taking decisions informed by big data, soil, weather pest or disease info. Follow an optimal guide for your farm. Cut paper work buy having all your information in one digital platform.</p>
+                            <p class="setup-step__message">Improve output by taking decisions informed by big data on soil, weather, pests or diseases. Follow an optimal guide for your farm. Cut out paper work by having all your information on one digital platform.</p>
                         </div>
                         <div class="setup-step">
                             <div class="setup-step__number">
@@ -120,7 +120,7 @@
                                 <span></span>
                             </div>
                             <h3 class="setup-step__title">Collaborate</h3>
-                            <p class="setup-step__message">Join a network of farmers around you. Solve problems, and share resources on the fly. Stay informed of latest trends and happenings</p>
+                            <p class="setup-step__message">Join a network of farmers around you. Solve problems, and share resources on the fly. Stay informed of latest trends and happenings.</p>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                 <div class="grid__column grid__column--6 pt-4">
                     <h4 class="feature-section-header__label">Join our Network 🤘🏾</h4>
                     <h2 class="feature-section-header__primary-title">Join our virtual Co-Op</h2>
-                    <p class="global-u-body-excerpt">We are building Africa’s largest functional digital ecosystem for Agriculture. It’s a network of farmers Aggregators, Processors, Exporters input providers and consumers.</p>
+                    <p class="global-u-body-excerpt">We are building Africa’s largest functional digital ecosystem for agriculture. It’s a network of farmers, aggregators, processors, exporters input providers and consumers.</p>
                     <ul class="setup-steps-container">
                         <li class="setup-step setup-step--list">
                             <div class="setup-step__number"><span></span><span></span></div>
@@ -173,15 +173,15 @@
                         </li>
                         <li class="setup-step setup-step--list">
                             <div class="setup-step__number"><span></span><span></span></div>
-                            <p class="setup-step__title">Learn and be part of impactful an exciting project</p>
+                            <p class="setup-step__title">Learn and be part of impactful an exciting projects</p>
                         </li>
                         <li class="setup-step setup-step--list">
                             <div class="setup-step__number"><span></span><span></span></div>
-                            <p class="setup-step__title">Sharpen your Field skills with courses and trainings</p>
+                            <p class="setup-step__title">Sharpen your field skills with courses and trainings</p>
                         </li>
                         <li class="setup-step setup-step--list">
                             <div class="setup-step__number"><span></span><span></span></div>
-                            <p class="setup-step__title"> Get access to Ag products and services at best prices</p>
+                            <p class="setup-step__title">Get access to agricultural products and services at best prices</p>
                         </li>
                     </ul>
                 </div>
