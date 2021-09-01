@@ -95,7 +95,7 @@
                             <p class="setup-step__message">Find hundreds of different food and grocery items on our menu at the best prizes you can find anywhere. And we give you a wide variety of sizes too.</p>
                         </div>
                         <div class="hero-section__call-to-action">
-                            <a class="button button--large button--green" href="https://www.farmsbyfresh.com">Start Shopping Now &nbsp; 🚀</a>
+                            <a class="button button--large button--green" href="https://www.farmsbyfresh.com">Start Shopping Now 🚀</a>
                         </div>
                     </div>
                 </div>
