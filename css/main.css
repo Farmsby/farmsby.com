@@ -426,8 +426,9 @@ h5 {
 }
 .svg {
 	display:inline-block;
-	height:48px;
-	width:48px
+	height:54px;
+	width:54px;
+	background-repeat: no-repeat;
 }
 .svg--small {
 	height:12px;

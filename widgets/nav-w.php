@@ -18,26 +18,26 @@
             </li>
             <li class="global-dropdown-menu__divider"></li>
             <li class="global-dropdown-menu__item global-dropdown-menu__item--muted">
-                <a href="#coin">Coin</a>
+                <a href="https://www.farmsby.io">Coin</a>
             </li>
         </ul>
     </li>
     <li class="global-nav__item global-nav__item--has-dropdown">
-        <a href="#farm">
+        <a href="./farm">
             Farm
         </a>
         <ul class="global-dropdown-menu">
             <li class="global-dropdown-menu__item">
-                <a href="#consultancy">Consultancy</a>
+                <a href="./farm">Greehousing</a>
             </li>
             <li class="global-dropdown-menu__item">
-                <a href="#analysis">Analysis</a>
+                <a href="./farm">Consultancy</a>
             </li>
             <li class="global-dropdown-menu__item">
-                <a href="#management">Management</a>
+                <a href="./farm">Analysis</a>
             </li>
             <li class="global-dropdown-menu__item">
-                <a href="#">Greehousing</a>
+                <a href="./farm">Management</a>
             </li>
         </ul>
     </li>
