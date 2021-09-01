@@ -16,8 +16,10 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^.]+)$ $1.php [NC,L]
 
-# RewriteCond %{SERVER_PORT} 80
-# RewriteRule ^(.*)$ https://www.farmsby.com/$1 [R,L]
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
 # php_value session.gc_maxlifetime 604800
 # php_flag display_startup_errors on
