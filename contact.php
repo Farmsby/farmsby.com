@@ -7,6 +7,16 @@
     <title>Contact Us</title>
     <meta name="description" content="Reach our to Farmsby">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206762604-1">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-206762604-1');
+    </script>
 </head>
 
 <body>
