@@ -33,7 +33,10 @@
                     <a href="https://blog.farmsby.com">Blog</a>
                 </li>
                 <li class="global-mobile-nav-menu__item">
-                    <a href="#login"><strong>Log In</strong></a>
+                    <a href="./farm">Farms</a>
+                </li>
+                <li class="global-mobile-nav-menu__item">
+                    <a href="https://app.farmsby.com/login"><strong>Log In</strong></a>
                 </li>
             </div>
         </div>

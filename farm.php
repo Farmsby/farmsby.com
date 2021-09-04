@@ -25,6 +25,34 @@
             </ul>
         </div>
     </section>
+    <section class="terms-nav" id="terms-nav">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__column">
+                    <ul class="terms-nav-menu">
+                        <li class="terms-nav-menu__item">
+                            <a href="#terms-of-use">Overview</a>
+                        </li>
+                        <li class="terms-nav-menu__item">
+                            <a href="#privacy">Farm management</a>
+                        </li>
+                        <li class="terms-nav-menu__item">
+                            <a href="#contact">Greenhousing</a>
+                        </li>
+                        <li class="terms-nav-menu__item">
+                            <a href="#investment-service">Consultancy</a>
+                        </li>
+                        <li class="terms-nav-menu__item">
+                            <a href="#investment-service">Processing & Export</a>
+                        </li>
+                        <li class="terms-nav-menu__item">
+                            <a href="#investment-service">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="feature-section feature-section--light feature-section--has-padding" id="data-analytics">
         <div class="container">
             <div class="grid grid--with-gutters">
