@@ -11,9 +11,14 @@
 
 <body>
     <?php include_once './widgets/header.php'; ?>
-    <section class="feature-header">
-        <div class="container">
-            <h1 class="feature-header__primary-title">Our Service</h1>
+    <section class="hero-section hero-section--pricing">
+        <video src="./video/banner.MOV" class="hero-section__background obj-fit" autoplay muted playsinline loop></video>
+        <div class="hero-section__slider">
+            <div class="slide global-u-text-center">
+                <h1 class="hero-section__primary-title">Our Services</h1>
+                <h2 class="hero-section__secondary-title">Farmsby is a farm-to-table digital ecosystem that reduces the risks of running agribusiness in Africa by creating markets, tools, and networks that enable you to grow. Empowering people in agriculture by creating a safe and efficient digital ecosystem for them.</h2>
+                
+            </div>
         </div>
     </section>
     <section class="feature-nav">
@@ -25,7 +30,7 @@
             </ul>
         </div>
     </section>
-    <section class="terms-nav" id="terms-nav">
+    <!-- <section class="terms-nav" id="terms-nav">
         <div class="container">
             <div class="grid">
                 <div class="grid__column">
@@ -52,14 +57,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="feature-section feature-section--light feature-section--has-padding" id="data-analytics">
         <div class="container">
             <div class="grid grid--with-gutters">
                 <div class="grid__column grid__column--7 grid__column--centered global-u-text-center">
                     <div class="feature-section-header" style="z-index: 2">
                         <h4 class="feature-section-header__label">The Farm 🌴</h4>
-                        <h2 class="feature-section-header__primary-title">Farmsby is a farm-to-table digital ecosystem that reduces the risks of running agribusiness in Africa by creating markets, tools, and networks that enable you to grow. Empowering people in agriculture by creating a safe and efficient digital ecosystem for them.</h2>
+                        <!-- <h2 class="feature-section-header__primary-title">Farmsby is a farm-to-table digital ecosystem that reduces the risks of running agribusiness in Africa by creating markets, tools, and networks that enable you to grow. Empowering people in agriculture by creating a safe and efficient digital ecosystem for them.</h2> -->
                     </div>
                 </div>
             </div>

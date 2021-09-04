@@ -4109,3 +4109,4 @@ button--large,
 .pb-4 { padding-bottom: 4rem !important; }
 .font-16 { font-size:16px; }
 .text-white {color: #fff;}
+.obj-fit { object-fit: cover; }
